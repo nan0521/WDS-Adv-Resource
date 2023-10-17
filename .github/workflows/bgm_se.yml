@@ -25,6 +25,9 @@ jobs:
       - name: bgm_se conversion
         run: |
           python bgm_se.py
+        env:
+          WDS_ENV_URL: ${{ secrets.WDS_ENV_URL }}
+          WDS_MASTERLIST_URL: ${{ secrets.WDS_MASTERLIST_URL }}
       - name: update file and push to remote
         run: |
           git config --local user.name "WDS-BOT[bot]"
