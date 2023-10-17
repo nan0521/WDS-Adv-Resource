@@ -36,8 +36,8 @@ def acbToMp3(input_dir, temp_dir, output_dir):
                 os.makedirs(temp_dir)
 
             # 生成mp3的位置
-            if not os.path.exists(bgm_dir):
-                os.makedirs(bgm_dir)
+            if not os.path.exists(output_dir):
+                os.makedirs(output_dir)
 
             # run command and save to temp dir
             os.system(f'./vgmstream-cli -S 0 -o {temp_dir}/?n.wav -i {acb_full_path}')
