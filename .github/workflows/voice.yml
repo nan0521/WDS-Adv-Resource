@@ -1,0 +1,33 @@
+name: voice
+
+on:
+  workflow_dispatch :
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pydub
+      - name: Install ffmpeg
+        run: |
+          sudo apt install ffmpeg
+      - name: voice conversion
+        run: |
+          python voice.py
+      - name: update file and push to remote
+        run: |
+          git config --local user.name "WDS-BOT[bot]"
+          git config --local user.email "WDS-BOT[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update"
+          git push
