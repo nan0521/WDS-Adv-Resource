@@ -81,8 +81,8 @@ if catalog_master.status_code == 200:
             if voiceRes.status_code == 200:
                 open(os.path.join(se_temp_dir, f'{name}.acb'), "wb").write(voiceRes.content)
 
-# bgm
-acbToMp3(bgm_temp_dir, bgm_temp_wav_dir, bgm_dir)
+    # bgm
+    acbToMp3(bgm_temp_dir, bgm_temp_wav_dir, bgm_dir)
 
-# se 
-acbToMp3(se_temp_dir, se_temp_wav_dir, se_dir)
+    # se 
+    acbToMp3(se_temp_dir, se_temp_wav_dir, se_dir)
