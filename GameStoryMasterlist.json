@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2023-10-19 15:27:52",
+    "LatestDate": "2023-10-19 15:41:21",
     "ScriptVersion": "1.0.3",
     "StoryMaster": {
         "Main": [
@@ -459,6 +459,113 @@
                     {
                         "EpisodeId": 1030120,
                         "Title": "新たなる銀河へ",
+                        "Order": 20
+                    }
+                ]
+            },
+            {
+                "Id": 10302,
+                "CompanyId": 3,
+                "ChapterOrder": 2,
+                "Episode": [
+                    {
+                        "EpisodeId": 1030201,
+                        "Title": "世界を渡る役者たち",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 1030202,
+                        "Title": "白雪姫",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 1030203,
+                        "Title": "血筋と実力",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 1030204,
+                        "Title": "目指す高み",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 1030205,
+                        "Title": "食いしばり",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 1030206,
+                        "Title": "我ら強大たるべし",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 1030207,
+                        "Title": "激戦区浅草",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 1030208,
+                        "Title": "銀河ステーションへ",
+                        "Order": 8
+                    },
+                    {
+                        "EpisodeId": 1030209,
+                        "Title": "配役発表",
+                        "Order": 9
+                    },
+                    {
+                        "EpisodeId": 1030210,
+                        "Title": "乗り込み準備",
+                        "Order": 10
+                    },
+                    {
+                        "EpisodeId": 1030211,
+                        "Title": "注目",
+                        "Order": 11
+                    },
+                    {
+                        "EpisodeId": 1030212,
+                        "Title": "克己",
+                        "Order": 12
+                    },
+                    {
+                        "EpisodeId": 1030213,
+                        "Title": "好敵手であり友であり",
+                        "Order": 13
+                    },
+                    {
+                        "EpisodeId": 1030214,
+                        "Title": "精神修養",
+                        "Order": 14
+                    },
+                    {
+                        "EpisodeId": 1030215,
+                        "Title": "親子",
+                        "Order": 15
+                    },
+                    {
+                        "EpisodeId": 1030216,
+                        "Title": "芽吹いていく可能性",
+                        "Order": 16
+                    },
+                    {
+                        "EpisodeId": 1030217,
+                        "Title": "銀河へ",
+                        "Order": 17
+                    },
+                    {
+                        "EpisodeId": 1030218,
+                        "Title": "幸せの在処",
+                        "Order": 18
+                    },
+                    {
+                        "EpisodeId": 1030219,
+                        "Title": "対話",
+                        "Order": 19
+                    },
+                    {
+                        "EpisodeId": 1030220,
+                        "Title": "旅は続く",
                         "Order": 20
                     }
                 ]
@@ -936,6 +1043,52 @@
                     {
                         "EpisodeId": 2000808,
                         "Title": "想像、してみた",
+                        "Order": 8
+                    }
+                ]
+            },
+            {
+                "Id": 20010,
+                "Title": "マジカルガール☆ハロウィン",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001001,
+                        "Title": "特別なイベント",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001002,
+                        "Title": "このメンバーで",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001003,
+                        "Title": "ヒートアップ",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001004,
+                        "Title": "５人じゃないと",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001005,
+                        "Title": "熱くなる理由",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001006,
+                        "Title": "コンテスト当日",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001007,
+                        "Title": "全力で",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001008,
+                        "Title": "みんながいたから",
                         "Order": 8
                     }
                 ]
@@ -1821,6 +1974,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140330,
+                        "Title": "コル・スコルピイ",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140331,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140332,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -1958,6 +2125,20 @@
                             },
                             {
                                 "EpisodeId": 140212,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140320,
+                        "Title": "南十字を目指して",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140321,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140322,
                                 "Order": 2
                             }
                         ]
@@ -2206,6 +2387,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140360,
+                        "Title": "真の力を見せる時！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140361,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140362,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2437,6 +2632,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140370,
+                        "Title": "戦い続ける魔法少女",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140371,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140372,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2483,6 +2692,20 @@
                             },
                             {
                                 "EpisodeId": 130212,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130310,
+                        "Title": "仲間のために",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130311,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130312,
                                 "Order": 2
                             }
                         ]
@@ -8421,6 +8644,18 @@
                 "PronounceName": "はいけいしゅうげつによせて",
                 "CharacterIds": [
                     106
+                ]
+            },
+            {
+                "Id": 230250,
+                "Name": "魔法少女カリュー",
+                "PronounceName": "まほうしょうじょかりゅー",
+                "CharacterIds": [
+                    401,
+                    402,
+                    403,
+                    404,
+                    405
                 ]
             }
         ]
