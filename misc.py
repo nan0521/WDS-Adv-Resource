@@ -32,16 +32,21 @@ bgmaster = json.load(open('./BackgroundMasterlist.json', 'rb')) if os.path.exist
 catalog_master = requests.get(f'{masterlistUrl}/assets/2d-catalog.json')
 if catalog_master.status_code == 200:
     catalog_data = catalog_master.json()
+
+    spine_urlid = [index for (index, item) in enumerate(catalog_data['m_InternalIdPrefixes']) if 'adventurecharacterstand_assets_adventurecharacterstands' in item][0]
+    card_urlid = [index for (index, item) in enumerate(catalog_data['m_InternalIdPrefixes']) if 'charactercardtextures_assets_charactercardtextures' in item][0]
+    bg_urlid = [index for (index, item) in enumerate(catalog_data['m_InternalIdPrefixes']) if 'adventurebackground_assets_adventurebackgrounds' in item][0]
+
     for asset in catalog_data['m_InternalIds']:
 
         # spine
-        if asset.startswith('301#'):
+        if asset.startswith(f'{spine_urlid}#'):
             filename = asset.split('/')[-1]
             spineId = filename.split('.')[0]
 
             # check the spine data isexit
             if not spineId in spinelist:
-                fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurecharacterstand_assets_adventurecharacterstands/{filename}'
+                fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurecharacterstand_assets_adventurecharacterstands/{filename}'                
                 assetsReq = requests.get(fullurl)
                 if assetsReq.status_code == 200:
                     assetsbundle = UnityPy.load(assetsReq.content)
@@ -61,7 +66,7 @@ if catalog_master.status_code == 200:
                 })
 
         # card Image
-        if asset.startswith('307#'):
+        if asset.startswith(f'{card_urlid}#'):
             filename = asset.split('/')[-1]
             cardId = filename.split('.')[0]
 
@@ -76,7 +81,7 @@ if catalog_master.status_code == 200:
                             data.image.save(os.path.join(cardsFolder, f'{data.name}.png'))
         
         # backgorund
-        if asset.startswith('300#'):
+        if asset.startswith(f'{bg_urlid}#'):
             filename = asset.split('/')[-1]
             bgId = filename.split('.')[0]
 
