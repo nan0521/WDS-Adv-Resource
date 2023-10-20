@@ -14,8 +14,7 @@ spineFolder = './spine/'
 if not os.path.exists(spineFolder):
     os.makedirs(spineFolder)
 
-spinemaster = json.load(open('./SpineMasterlist.json', 'rb')) if os.path.exists('./SpineMasterlist.json') else []
-spinelist = [item["Id"] for item in spinemaster]
+spinemaster = []
 
 # cards setting
 cardsFolder = './cards'
@@ -44,26 +43,24 @@ if catalog_master.status_code == 200:
             filename = asset.split('/')[-1]
             spineId = filename.split('.')[0]
 
-            # check the spine data isexit
-            if not spineId in spinelist:
-                fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurecharacterstand_assets_adventurecharacterstands/{filename}'                
-                assetsReq = requests.get(fullurl)
-                if assetsReq.status_code == 200:
-                    assetsbundle = UnityPy.load(assetsReq.content)
-                    for obj in assetsbundle.objects:
-                        if obj.type.name == "Texture2D":
-                            data = obj.read()
-                            data.image.save(os.path.join(spineFolder, f'{data.name}.png'))
+            fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurecharacterstand_assets_adventurecharacterstands/{filename}'                
+            assetsReq = requests.get(fullurl)
+            if assetsReq.status_code == 200:
+                assetsbundle = UnityPy.load(assetsReq.content)
+                for obj in assetsbundle.objects:
+                    if obj.type.name == "Texture2D":
+                        data = obj.read()
+                        data.image.save(os.path.join(spineFolder, f'{data.name}.png'))
 
-                        if obj.type.name == "TextAsset":
-                            data = obj.read()
-                            open(os.path.join(spineFolder, data.name), "wb").write(bytes(data.script))
+                    if obj.type.name == "TextAsset":
+                        data = obj.read()
+                        open(os.path.join(spineFolder, data.name), "wb").write(bytes(data.script))
 
-                spinemaster.append({
-                    "Id" : int(spineId),
-                    "CharacterId" : int(spineId[0 : 3]),
-                    "CompanyId" : int(spineId[0]),
-                })
+            spinemaster.append({
+                "Id" : int(spineId),
+                "CharacterId" : int(spineId[0 : 3]),
+                "CompanyId" : int(spineId[0]),
+            })
 
         # card Image
         if asset.startswith(f'{card_urlid}#'):
