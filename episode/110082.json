@@ -404,7 +404,7 @@
             "EpisodeMasterId": 110082,
             "Order": 1,
             "GroupOrder": 16,
-            "SpeakerName": "流石",
+            "SpeakerName": "知冴",
             "FontSize": 2,
             "Phrase": "アステカ文明の問題、出なかった……。",
             "VoiceFileName": "1100820150",
@@ -433,7 +433,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "106"
         },
         {
             "Id": 110082017,
@@ -464,7 +464,7 @@
             "EpisodeMasterId": 110082,
             "Order": 1,
             "GroupOrder": 18,
-            "SpeakerName": "流石",
+            "SpeakerName": "知冴",
             "FontSize": 2,
             "Phrase": "ん……？　カラス、どうした？/nなんだか涙目になってるけど……。",
             "VoiceFileName": "1100820170",
@@ -482,7 +482,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "106"
         },
         {
             "Id": 110082019,
