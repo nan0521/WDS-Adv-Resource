@@ -273,7 +273,7 @@
             "GroupOrder": 7,
             "SpeakerName": "いろは",
             "FontSize": 2,
-            "Phrase": "『シンクツ』の合わせがしたいなって、来ましたっ！",
+            "Phrase": "シンクツの合わせがしたいなって、来ましたっ！",
             "VoiceFileName": "1301720071",
             "CharacterMotions": [
                 {
@@ -578,7 +578,7 @@
             "GroupOrder": 16,
             "SpeakerName": "お姉さんB",
             "FontSize": 2,
-            "Phrase": "『シンクツ』好きなら問題ナシナシ。/nじゃあ、受付に行こう。案内してあげる。",
+            "Phrase": "シンクツ好きなら問題ナシナシ。/nじゃあ、受付に行こう。案内してあげる。",
             "VoiceFileName": "1301720160",
             "CharacterMotions": [
                 {
@@ -762,7 +762,7 @@
             "GroupOrder": 22,
             "SpeakerName": "いろは",
             "FontSize": 2,
-            "Phrase": "わ、次回公演……っ！/n後で美兎ちゃんにも教えてあげましょう。",
+            "Phrase": "わ、次回公演、シンクツじゃないですかっ。/n後で美兎ちゃんにも教えてあげましょう。",
             "VoiceFileName": "1301720210",
             "CharacterMotions": [
                 {
