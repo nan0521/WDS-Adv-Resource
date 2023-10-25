@@ -746,7 +746,6 @@
                     "slotNumber": 1,
                     "FacialExpressionMasterId": 102,
                     "BodyMotionMasterId": 4,
-                    "LipSyncMasterId": 4,
                     "SpineId": 30301,
                     "CharacterAppearanceType": 0,
                     "CharacterPosition": 3,
