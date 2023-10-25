@@ -42,6 +42,8 @@ if catalog_master.status_code == 200:
         if asset.startswith(f'{spine_urlid}#'):
             filename = asset.split('/')[-1]
             spineId = filename.split('.')[0]
+            IsExitImg = False
+            IsExitMeta = False
 
             fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurecharacterstand_assets_adventurecharacterstands/{filename}'                
             assetsReq = requests.get(fullurl)
@@ -51,16 +53,20 @@ if catalog_master.status_code == 200:
                     if obj.type.name == "Texture2D":
                         data = obj.read()
                         data.image.save(os.path.join(spineFolder, f'{spineId}.png'))
+                        IsExitImg = True
 
                     if obj.type.name == "TextAsset":
                         data = obj.read()
-                        open(os.path.join(spineFolder, spineId), "wb").write(bytes(data.script))
+                        ext = data.name.split('.')[-1]
+                        open(os.path.join(spineFolder, f'{spineId}.{ext}'), "wb").write(bytes(data.script))
+                        IsExitMeta = True
 
-            spinemaster.append({
-                "Id" : int(spineId),
-                "CharacterId" : int(spineId[0 : 3]),
-                "CompanyId" : int(spineId[0]),
-            })
+            if IsExitImg and IsExitMeta:
+                spinemaster.append({
+                    "Id" : int(spineId),
+                    "CharacterId" : int(spineId[0 : 3]),
+                    "CompanyId" : int(spineId[0]),
+                })
 
         # card Image
         if asset.startswith(f'{card_urlid}#'):
