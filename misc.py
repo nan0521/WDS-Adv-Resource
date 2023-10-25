@@ -50,11 +50,11 @@ if catalog_master.status_code == 200:
                 for obj in assetsbundle.objects:
                     if obj.type.name == "Texture2D":
                         data = obj.read()
-                        data.image.save(os.path.join(spineFolder, f'{data.name}.png'))
+                        data.image.save(os.path.join(spineFolder, f'{spineId}.png'))
 
                     if obj.type.name == "TextAsset":
                         data = obj.read()
-                        open(os.path.join(spineFolder, data.name), "wb").write(bytes(data.script))
+                        open(os.path.join(spineFolder, spineId), "wb").write(bytes(data.script))
 
             spinemaster.append({
                 "Id" : int(spineId),
