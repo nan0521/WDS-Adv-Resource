@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2023-10-30 10:11:31",
+    "LatestDate": "2023-10-30 15:20:32",
     "ScriptVersion": "1.0.3",
     "StoryMaster": {
         "Main": [
@@ -1048,6 +1048,52 @@
                 ]
             },
             {
+                "Id": 20009,
+                "Title": "シリウスは日々是好日で",
+                "Episode": [
+                    {
+                        "EpisodeId": 2000901,
+                        "Title": "明日遊び行かない？",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2000902,
+                        "Title": "頑張っちゃいますんで",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2000903,
+                        "Title": "ぱんだにお任せください",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2000904,
+                        "Title": "いっちゃいましょう！",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2000905,
+                        "Title": "ガールズトーク",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2000906,
+                        "Title": "人生はさまよう影法師",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2000907,
+                        "Title": "知ってる？",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2000908,
+                        "Title": "今日はどんな一日だった？",
+                        "Order": 8
+                    }
+                ]
+            },
+            {
                 "Id": 20010,
                 "Title": "マジカルガール☆ハロウィン",
                 "Episode": [
@@ -1166,6 +1212,20 @@
                             },
                             {
                                 "EpisodeId": 140012,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140340,
+                        "Title": "ステキな物語はいかがですか？",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140341,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140342,
                                 "Order": 2
                             }
                         ]
@@ -1437,6 +1497,20 @@
                         ]
                     },
                     {
+                        "Id": 130300,
+                        "Title": "ぱんだ with パンダ！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130301,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130302,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140030,
                         "Title": "あなたをお待ちしておりました",
                         "Episode": [
@@ -1537,6 +1611,20 @@
                             },
                             {
                                 "EpisodeId": 140042,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140350,
+                        "Title": "おとぎの国の食事会",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140351,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140352,
                                 "Order": 2
                             }
                         ]
@@ -8644,6 +8732,15 @@
                 "PronounceName": "はいけいしゅうげつによせて",
                 "CharacterIds": [
                     106
+                ]
+            },
+            {
+                "Id": 230230,
+                "Name": "くま",
+                "PronounceName": "くま",
+                "CharacterIds": [
+                    102,
+                    103
                 ]
             },
             {
