@@ -31,7 +31,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906002,
@@ -56,7 +56,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906003,
@@ -81,7 +81,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906004,
@@ -144,7 +144,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906008,
@@ -209,7 +209,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906012,
@@ -232,7 +232,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906013,
@@ -259,7 +259,7 @@
             "Phrase": "引っ越してからすぐは、友達ともあんまり仲良くできなくって、/n両親が帰ってくるのも遅かったりしてーー",
             "VoiceFileName": "20009060120",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906015,
@@ -271,7 +271,7 @@
             "Phrase": "ひとりでいる時間が長くて、退屈でさみしい思いもした。",
             "VoiceFileName": "20009060130",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906016,
@@ -781,7 +781,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906038,
@@ -806,7 +806,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906039,
@@ -815,7 +815,7 @@
             "GroupOrder": 39,
             "SpeakerName": "中学生のここな",
             "FontSize": 2,
-            "Phrase": "……明日は初めてのオーディションか。",
+            "Phrase": "……明日はオーディションか。",
             "WindowEffect": 1,
             "VoiceFileName": "20009060350",
             "CharacterMotions": [
@@ -831,7 +831,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906040,
@@ -857,7 +857,7 @@
                     "SpineSize": 2
                 }
             ],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906041,
@@ -884,7 +884,7 @@
             "Phrase": "岸さんは旅行で留守止め……。/n木藪さんのおうちは、雨の日は集合ポストじゃなくてドアポスト……。",
             "VoiceFileName": "20009060370",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906043,
@@ -896,7 +896,7 @@
             "Phrase": "……。",
             "VoiceFileName": "20009060380",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906044,
@@ -908,7 +908,7 @@
             "Phrase": "オーディション、ぜんぜんだめだったなぁ……。",
             "VoiceFileName": "20009060390",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906045,
@@ -920,7 +920,7 @@
             "Phrase": "センスがない……か。",
             "VoiceFileName": "20009060400",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906046,
@@ -932,7 +932,7 @@
             "Phrase": "ううん。そんなことない。",
             "VoiceFileName": "20009060410",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906047,
@@ -941,10 +941,10 @@
             "GroupOrder": 47,
             "SpeakerName": "中学生のここな",
             "FontSize": 2,
-            "Phrase": "１回だめだったくらいで、簡単に下を向いちゃいけない。",
+            "Phrase": "簡単に下を向いちゃいけない。",
             "VoiceFileName": "20009060420",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906048,
@@ -956,7 +956,7 @@
             "Phrase": "きっと雨が降ってるから、気持ちも沈んじゃうんだ。/nこんな時は、もっと楽しいことを考えよう。",
             "VoiceFileName": "20009060430",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906049,
@@ -968,7 +968,7 @@
             "Phrase": "楽しいこと……楽しいこと……。",
             "VoiceFileName": "20009060440",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906050,
@@ -1015,7 +1015,7 @@
             "Phrase": "……っ！",
             "VoiceFileName": "20009060460",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906054,
@@ -1027,7 +1027,7 @@
             "Phrase": "違う！　私にとっての楽しいことだってば……！",
             "VoiceFileName": "20009060470",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906055,
@@ -1074,7 +1074,7 @@
             "Phrase": "（どうしてもヘンなことばかり考えちゃう……！）",
             "VoiceFileName": "20009060490",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906059,
@@ -1086,7 +1086,7 @@
             "Phrase": "こういう時は配達に集中しよう。/nもっといっぱい、体を動かしたりして忘れよう……！",
             "VoiceFileName": "20009060500",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906060,
@@ -1098,7 +1098,7 @@
             "Phrase": "ーーっ！？",
             "VoiceFileName": "20009060510",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906061,
@@ -1120,7 +1120,7 @@
             "Phrase": "……ってて。",
             "VoiceFileName": "20009060520",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906063,
@@ -1132,7 +1132,7 @@
             "Phrase": "うぅぅ……。",
             "VoiceFileName": "20009060530",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000906064,
@@ -1144,7 +1144,7 @@
             "Phrase": "私……このままでいいのかな……。",
             "VoiceFileName": "20009060540",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         }
     ]
 }

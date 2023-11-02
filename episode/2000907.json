@@ -911,7 +911,7 @@
             "SeFileName": "2071",
             "VoiceFileName": "20009070350",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000907039,
@@ -935,7 +935,7 @@
             "Phrase": "それって、マクベスの……？",
             "VoiceFileName": "20009070380",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000907041,
@@ -971,7 +971,7 @@
             "Phrase": "ほんとうに？",
             "VoiceFileName": "20009070410",
             "CharacterMotions": [],
-            "SpeakerIconId": "1"
+            "SpeakerIconId": "101"
         },
         {
             "Id": 2000907044,
