@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2023-11-10 10:21:52",
+    "LatestDate": "2023-11-10 15:05:25",
     "ScriptVersion": "1.0.3",
     "StoryMaster": {
         "Main": [
@@ -1138,6 +1138,52 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20012,
+                "Title": "人には言えないアタシの叫び",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001201,
+                        "Title": "器用でかっこいい女の子",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001202,
+                        "Title": "手がつけられない女の子",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001203,
+                        "Title": "先生よりも大人な女の子",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001204,
+                        "Title": "ごーどーれく",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001205,
+                        "Title": "もしかしていける？",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001206,
+                        "Title": "せめてもう一回くらいは",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001207,
+                        "Title": "バカうさぎ",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001208,
+                        "Title": "叫びたいかも",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -1415,6 +1461,20 @@
                             },
                             {
                                 "EpisodeId": 130042,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130330,
+                        "Title": "いっしょに遊びませんか？",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130331,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130332,
                                 "Order": 2
                             }
                         ]
@@ -1982,6 +2042,20 @@
                             },
                             {
                                 "EpisodeId": 140072,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140410,
+                        "Title": "巡り合わせの落葉",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140411,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140412,
                                 "Order": 2
                             }
                         ]
@@ -2808,6 +2882,20 @@
                             },
                             {
                                 "EpisodeId": 140132,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140400,
+                        "Title": "夕暮れ時には甘えてみて",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140401,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140402,
                                 "Order": 2
                             }
                         ]
@@ -8753,6 +8841,14 @@
                     403,
                     404,
                     405
+                ]
+            },
+            {
+                "Id": 230280,
+                "Name": "Thorn Princess",
+                "PronounceName": "ThornPrincess",
+                "CharacterIds": [
+                    104
                 ]
             }
         ]
