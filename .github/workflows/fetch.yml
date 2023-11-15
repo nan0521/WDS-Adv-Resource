@@ -1,11 +1,11 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: fetch every day
+name: fetch 01
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 5 * * *'
   workflow_dispatch :
 
 jobs:
