@@ -2,10 +2,10 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
 name: fetch 01
-
+# run at 5:00
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 20 * * *'
   workflow_dispatch :
 
 jobs:
