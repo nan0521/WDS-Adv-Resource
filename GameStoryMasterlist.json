@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2023-11-17 05:06:06",
+    "LatestDate": "2023-11-17 17:23:15",
     "ScriptVersion": "1.0.3",
     "StoryMaster": {
         "Main": [
@@ -1140,6 +1140,52 @@
                 ]
             },
             {
+                "Id": 20011,
+                "Title": "ギムレットにお別れを",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001101,
+                        "Title": "さらば、愛しき……",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001102,
+                        "Title": "渦中の女",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001103,
+                        "Title": "タフでなければ生きていけない",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001104,
+                        "Title": "自分で自分に仕掛ける罠",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001105,
+                        "Title": "リトルシスター",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001106,
+                        "Title": "プレイバック",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001107,
+                        "Title": "優しくなれなければ",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001108,
+                        "Title": "ギムレットには早すぎる",
+                        "Order": 8
+                    }
+                ]
+            },
+            {
                 "Id": 20012,
                 "Title": "人には言えないアタシの叫び",
                 "Episode": [
@@ -2227,6 +2273,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140380,
+                        "Title": "名探偵の悲哀",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140381,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140382,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2301,6 +2361,20 @@
                             },
                             {
                                 "EpisodeId": 140322,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140390,
+                        "Title": "本当のギムレット",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140391,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140392,
                                 "Order": 2
                             }
                         ]
@@ -2427,6 +2501,20 @@
                             },
                             {
                                 "EpisodeId": 130162,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130320,
+                        "Title": "ん～っ！　デリシャス！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130321,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130322,
                                 "Order": 2
                             }
                         ]
@@ -8841,6 +8929,16 @@
                     403,
                     404,
                     405
+                ]
+            },
+            {
+                "Id": 230260,
+                "Name": "The Long Goodbye",
+                "PronounceName": "TheLongGoodbye",
+                "CharacterIds": [
+                    302,
+                    303,
+                    304
                 ]
             },
             {
