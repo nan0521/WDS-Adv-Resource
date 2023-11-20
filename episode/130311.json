@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130311,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 130312,
     "Title": "仲間のために",

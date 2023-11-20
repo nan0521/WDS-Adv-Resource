@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130231,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 130232,
     "Title": "最後はBBQ！",

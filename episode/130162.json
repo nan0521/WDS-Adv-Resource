@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130162,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130161,
     "Next": null,
     "Title": "踊ればなんくるない！",

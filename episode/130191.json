@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130191,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 130192,
     "Title": "新作お菓子レビュー",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140281,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 140282,
     "Title": "月光が映し出す罪と後悔",

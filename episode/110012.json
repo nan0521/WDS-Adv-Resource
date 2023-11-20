@@ -1,7 +1,7 @@
 {
     "EpisodeId": 110012,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 110011,
     "Next": null,
     "Title": "シリウス",

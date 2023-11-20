@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140132,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140131,
     "Next": null,
     "Title": "月下の神秘",

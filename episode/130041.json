@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130041,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 130042,
     "Title": "思い出に花を咲かせて",

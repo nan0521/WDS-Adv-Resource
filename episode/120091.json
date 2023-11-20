@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120091,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 120092,
     "Title": "純真無垢な少女",

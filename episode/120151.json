@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120151,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 120152,
     "Title": "白銀の美少女",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140222,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140221,
     "Next": null,
     "Title": "妖艶に誘われて",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140142,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140141,
     "Next": null,
     "Title": "憧れに思いを馳せて",

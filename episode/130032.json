@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130032,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130031,
     "Next": null,
     "Title": "砕けたガラスは……",

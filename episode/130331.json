@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130331,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 130332,
     "Title": "いっしょに遊びませんか？",

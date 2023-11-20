@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120042,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 120041,
     "Next": null,
     "Title": "天使系小学生",

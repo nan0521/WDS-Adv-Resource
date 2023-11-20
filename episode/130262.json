@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130262,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130261,
     "Next": null,
     "Title": "水晶玉に映る未来",

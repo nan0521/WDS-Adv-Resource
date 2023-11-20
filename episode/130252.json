@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130252,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130251,
     "Next": null,
     "Title": "手に入れたいのは……",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140112,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140111,
     "Next": null,
     "Title": "私を見守る大切な蝶",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140072,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140071,
     "Next": null,
     "Title": "吸血しちゃうぞっ♪",

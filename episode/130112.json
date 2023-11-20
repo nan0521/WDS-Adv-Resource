@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130112,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130111,
     "Next": null,
     "Title": "体育なんて滅びちゃえ！",

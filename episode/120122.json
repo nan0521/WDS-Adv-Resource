@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120122,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 120121,
     "Next": null,
     "Title": "名家の姉",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120141,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 120142,
     "Title": "勝気な倹約家",

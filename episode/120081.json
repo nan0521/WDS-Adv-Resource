@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120081,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 120082,
     "Title": "愛憎まみれる乙女",

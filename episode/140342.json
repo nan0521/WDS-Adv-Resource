@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140342,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140341,
     "Next": null,
     "Title": "ステキな物語はいかがですか？",

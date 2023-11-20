@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140242,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140241,
     "Next": null,
     "Title": "光さす世界に",

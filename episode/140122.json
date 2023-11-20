@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140122,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140121,
     "Next": null,
     "Title": "世界が色づくその瞬間",

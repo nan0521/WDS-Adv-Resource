@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140092,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140091,
     "Next": null,
     "Title": "かつての友との別れ",

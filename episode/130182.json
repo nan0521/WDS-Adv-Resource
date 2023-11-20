@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130182,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130181,
     "Next": null,
     "Title": "まさかのお客様",

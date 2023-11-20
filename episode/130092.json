@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130092,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130091,
     "Next": null,
     "Title": "都会ってすごい！",

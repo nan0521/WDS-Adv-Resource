@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130242,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130241,
     "Next": null,
     "Title": "流石の釣り名人",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140402,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140401,
     "Next": null,
     "Title": "夕暮れ時には甘えてみて",

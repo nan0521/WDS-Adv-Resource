@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120132,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 120131,
     "Next": null,
     "Title": "世話好き優等生",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130121,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 130122,
     "Title": "お嬢様のオフタイム",

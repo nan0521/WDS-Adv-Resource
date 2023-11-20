@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140171,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 140172,
     "Title": "追想の帰路",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140412,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140411,
     "Next": null,
     "Title": "巡り合わせの落葉",

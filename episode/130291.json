@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130291,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 130292,
     "Title": "ほら、帰ろ？",

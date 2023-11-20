@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130171,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 130172,
     "Title": "来ちゃいました！",

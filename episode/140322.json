@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140322,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140321,
     "Next": null,
     "Title": "南十字を目指して",

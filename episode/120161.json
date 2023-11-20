@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120161,
     "StoryType": 3,
-    "Order": 1,
+    "Order": "First",
     "Prev": null,
     "Next": 120162,
     "Title": "元気いっぱいダンサー",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130102,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130101,
     "Next": null,
     "Title": "ここいらでひとつ、大勝負",

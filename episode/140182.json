@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140182,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140181,
     "Next": null,
     "Title": "茜海に満たされて",

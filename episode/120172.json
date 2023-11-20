@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120172,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 120171,
     "Next": null,
     "Title": "オタクでお嬢様",

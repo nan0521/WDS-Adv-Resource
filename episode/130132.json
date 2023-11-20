@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130132,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 130131,
     "Next": null,
     "Title": "世話焼きは果てしなく",

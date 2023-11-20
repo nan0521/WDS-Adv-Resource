@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140292,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140291,
     "Next": null,
     "Title": "甘美なる悪逆へ誘おう",

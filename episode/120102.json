@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120102,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 120101,
     "Next": null,
     "Title": "下町のアイドル",

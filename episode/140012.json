@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140012,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140011,
     "Next": null,
     "Title": "悲哀と恋慕の旋律",

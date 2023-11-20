@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140082,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 140081,
     "Next": null,
     "Title": "幼き日の情景",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120052,
     "StoryType": 3,
-    "Order": 2,
+    "Order": "Second",
     "Prev": 120051,
     "Next": null,
     "Title": "腹黒計算ガール",
