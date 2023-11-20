@@ -307,7 +307,8 @@ if masterlistres.status_code == 200:
                 res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{ep["EpisodeMasterId"]}.bin')
                 if res.status_code == 200:
                     msgdata = msgpack_lz4block.deserialize(res.content)
-                    to_json = createFormat(ep["EpisodeMasterId"], 3, ep["EpisodeOrder"], group["Title"], addKey(msgdata), orderlist)
+                    order = ep["EpisodeOrder"] if type(ep["EpisodeOrder"]) is int else orderToNum[ep["EpisodeOrder"]]
+                    to_json = createFormat(ep["EpisodeMasterId"], 3, order, group["Title"], addKey(msgdata), orderlist)
                     json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
                     open(os.path.join(EPBase_dir, f'{ep["EpisodeMasterId"]}.json'), "w", encoding='utf8').write(json_data)
                 # 檢查列表中是否存在
