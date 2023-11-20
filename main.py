@@ -61,6 +61,20 @@ motionkeymap = [
     "SpineSize"
 ]
 
+orderToNum = {
+    "First" : 1,
+    "Second" : 2
+}
+
+posterTypeToNum = {
+    "Information" : 0,
+    "Chapter1" : 1,
+    "Chapter2" : 2,
+    "Chapter3" : 3,
+    "Chapter4" : 4,
+    "AfterTalk" : 5
+}
+
 def addKey(listcontent):
     list = []
     for data in listcontent:
