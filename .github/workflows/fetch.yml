@@ -4,9 +4,9 @@
 name: fetch 01
 # run at 5:00
 on:
-  schedule:
+  # schedule:
     # - cron: '0 20 * * *'
-  # workflow_dispatch :
+  workflow_dispatch :
 
 jobs:
   fetch:
