@@ -1,7 +1,7 @@
 {
     "EpisodeId": 110202,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 110201,
     "Next": null,
     "Title": "劇団電姫",

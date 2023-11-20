@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130202,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 130201,
     "Next": null,
     "Title": "悪鬼退散っ！",

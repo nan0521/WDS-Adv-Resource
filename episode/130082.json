@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130082,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 130081,
     "Next": null,
     "Title": "恨みをつづって",

@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140102,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 140101,
     "Next": null,
     "Title": "オーロラの精霊",

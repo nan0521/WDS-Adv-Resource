@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130281,
     "StoryType": 3,
-    "Order": "First",
+    "Order": 1,
     "Prev": null,
     "Next": 130282,
     "Title": "お姉ちゃんが心配です",

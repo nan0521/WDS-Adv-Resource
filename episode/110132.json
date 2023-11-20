@@ -1,7 +1,7 @@
 {
     "EpisodeId": 110132,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 110131,
     "Next": null,
     "Title": "銀河座",

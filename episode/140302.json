@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140302,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 140301,
     "Next": null,
     "Title": "綾錦の月影",

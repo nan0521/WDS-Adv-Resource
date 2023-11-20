@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120022,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 120021,
     "Next": null,
     "Title": "シリウスのツッコミ",

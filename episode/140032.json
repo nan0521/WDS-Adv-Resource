@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140032,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 140031,
     "Next": null,
     "Title": "あなたをお待ちしておりました",

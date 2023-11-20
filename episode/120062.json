@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120062,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 120061,
     "Next": null,
     "Title": "シリウスの秘密兵器",

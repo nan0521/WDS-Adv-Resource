@@ -1,7 +1,7 @@
 {
     "EpisodeId": 140042,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 140041,
     "Next": null,
     "Title": "君を求めていた",

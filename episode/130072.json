@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130072,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 130071,
     "Next": null,
     "Title": "新たな日常",

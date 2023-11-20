@@ -1,7 +1,7 @@
 {
     "EpisodeId": 130141,
     "StoryType": 3,
-    "Order": "First",
+    "Order": 1,
     "Prev": null,
     "Next": 130142,
     "Title": "あるのは勝ちだけ",

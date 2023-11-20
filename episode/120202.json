@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120202,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 120201,
     "Next": null,
     "Title": "電姫の占い師",

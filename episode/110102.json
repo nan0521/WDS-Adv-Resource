@@ -1,7 +1,7 @@
 {
     "EpisodeId": 110102,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 110101,
     "Next": null,
     "Title": "Eden",

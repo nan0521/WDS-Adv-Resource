@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120112,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 120111,
     "Next": null,
     "Title": "小悪魔系小学生",

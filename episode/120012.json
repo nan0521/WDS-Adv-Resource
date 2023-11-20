@@ -1,7 +1,7 @@
 {
     "EpisodeId": 120012,
     "StoryType": 3,
-    "Order": "Second",
+    "Order": 2,
     "Prev": 120011,
     "Next": null,
     "Title": "夢見る少女",
