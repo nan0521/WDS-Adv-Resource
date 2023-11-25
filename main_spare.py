@@ -351,8 +351,9 @@ if masterlistres.status_code == 200:
         if not len(Isexit) > 0:
             chararr = []
             for num in range(1, 6):
-                if not data[f'CharacterId{num}'] == None:
-                    chararr.append(data[f'CharacterId{num}'])
+                if f'CharacterId{num}' in data:
+                    if not data[f'CharacterId{num}'] == None:
+                        chararr.append(data[f'CharacterId{num}'])
             GameStoryMasterlist["StoryMaster"]["Spot"].append({
                 "EpisodeId" : data["EpisodeMasterId"],
                 "Title" : "スポット会話",
