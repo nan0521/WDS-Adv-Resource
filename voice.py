@@ -27,12 +27,21 @@ if os.path.exists(input_dir):
         # run command and save to temp dir
         os.system(f'./vgmstream-cli -S 0 -o {wav_temp_dir}/?n.wav -i {acb_full_path}')
 
+        # manifest list
+        manifest = []
+
         # exchange to mp3 format 
         for wavfile in os.listdir(wav_temp_dir):
             if wavfile.endswith(".wav"):
                 full_wav_path = os.path.join(wav_temp_dir, wavfile)
                 sound = AudioSegment.from_wav(full_wav_path)
                 sound.export(os.path.join(mp3_output_dir, wavfile.replace('.wav', '.mp3')), format="mp3")
+                # add file name in manifest list
+                manifest.append(wavfile.split('.wav')[0])
+
+        # save manifest list as json
+        manifest_data = json.dumps(manifest, indent=4, ensure_ascii=False)
+        open(os.path.join(mp3_output_dir,'manifest.json'), "w", encoding='utf8').write(manifest_data)
 
         # del file
         if os.path.exists(wav_temp_dir):
