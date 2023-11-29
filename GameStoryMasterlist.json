@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2023-11-28 17:31:21",
+    "LatestDate": "2023-11-29 17:25:52",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1230,6 +1230,52 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20013,
+                "Title": "bet on faith？",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001301,
+                        "Title": "頼られるのは悪くない",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001302,
+                        "Title": "思い出と今",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001303,
+                        "Title": "手を伸ばしても届かない星",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001304,
+                        "Title": "掴めなくても",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001305,
+                        "Title": "手を伸ばすこと",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001306,
+                        "Title": "羊飼いの月",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001307,
+                        "Title": "間違っていても",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001308,
+                        "Title": "らしくなくても",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -1785,6 +1831,20 @@
                         ]
                     },
                     {
+                        "Id": 130340,
+                        "Title": "その目をよく見せてくれ",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130341,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130342,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140160,
                         "Title": "悪意に満ちた観察者",
                         "Episode": [
@@ -1871,6 +1931,20 @@
                             },
                             {
                                 "EpisodeId": 140152,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140430,
+                        "Title": "縛めを解いてくれた人と共に",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140431,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140432,
                                 "Order": 2
                             }
                         ]
@@ -2025,6 +2099,20 @@
                             },
                             {
                                 "EpisodeId": 140062,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140420,
+                        "Title": "囚われてなお渇望するもの",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140421,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140422,
                                 "Order": 2
                             }
                         ]
@@ -8947,6 +9035,15 @@
                 "PronounceName": "ThornPrincess",
                 "CharacterIds": [
                     104
+                ]
+            },
+            {
+                "Id": 230290,
+                "Name": "親指姫と灰色のツバメ",
+                "PronounceName": "おやゆびひめとはいいろのつばめ",
+                "CharacterIds": [
+                    202,
+                    203
                 ]
             }
         ]
