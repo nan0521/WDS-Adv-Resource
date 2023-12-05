@@ -131,7 +131,8 @@ if os.path.exists('./GameStoryMasterlist.json'):
                 "Event" : [],
                 "Side" : [],
                 "Spot" : [],
-                "Poster" : []
+                "Poster" : [],
+                "Special" : [],
             }
         }
 else :
@@ -143,7 +144,8 @@ else :
             "Event" : [],
             "Side" : [],
             "Spot" : [],
-            "Poster" : []
+            "Poster" : [],
+            "Special" : [],
         }
     }
     
@@ -423,6 +425,37 @@ if Poster_Update == True:
         if obj.type.name == "Sprite":
             data = obj.read()
             data.image.save(os.path.join(posterImage_dir, f'{data.name}.png'))
+
+
+# ------------------------ Special ------------------------
+masterlistres = requests.get(f'{masterlistUrl}/SplashMaster.json')
+if masterlistres.status_code == 200:
+    SplashEpisode = [item for item in masterlistres.json() if item.get('SplashType') == "Episode"]
+    for data in SplashEpisode:
+        # 生成故事文檔
+        res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["SplashValue"]}.bin')
+        if res.status_code == 200:
+            msgdata = msgpack_lz4block.deserialize(res.content)
+            to_json = createFormat(data["SplashValue"], 4, 1, "", addKey(msgdata), [])
+            json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
+            open(os.path.join(EPBase_dir, f'{data["SplashValue"]}.json'), "w", encoding='utf8').write(json_data)
+
+        # 檢查列表中是否存在
+        Isexit = [item for item in GameStoryMasterlist["StoryMaster"]["Special"] if item.get('EpisodeId') == data["SplashValue"]]
+        if not len(Isexit) > 0:
+            GameStoryMasterlist["StoryMaster"]["Special"].append({
+                "EpisodeId" : data["SplashValue"],
+                "Title" : "",
+                "Order" : 1,
+            })
+            # 生成語音檔
+            voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["SplashValue"]}.acb.bundle')
+            if voiceRes.status_code == 200:
+                open(os.path.join(temp_dir, f'{data["SplashValue"]}.acb'), "wb").write(voiceRes.content)
+
+    # 列表排序
+    GameStoryMasterlist["StoryMaster"]["Special"].sort(key = lambda x: x["EpisodeId"] )
+
 
 # 生成 GameStoryMasterlist.json
 date = datetime.datetime.now(pytz.timezone('Asia/Tokyo'))
