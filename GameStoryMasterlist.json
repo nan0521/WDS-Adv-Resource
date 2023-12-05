@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2023-12-04 17:26:59",
+    "LatestDate": "2023-12-05 17:40:09",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -9047,6 +9047,12 @@
                 ]
             }
         ],
-        "Special":[]
+        "Special": [
+            {
+                "EpisodeId": "3000101",
+                "Title": "",
+                "Order": 1
+            }
+        ]
     }
 }
