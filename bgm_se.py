@@ -19,7 +19,7 @@ if not os.path.exists(bgm_temp_dir):
 #se dir
 se_temp_dir = './se_temp'
 se_dir = './se'
-se_temp_wav_dir = './bgm_se_temp'
+se_temp_wav_dir = './se_wav_temp'
 if not os.path.exists(se_temp_dir):
     os.makedirs(se_temp_dir)
 
@@ -87,6 +87,18 @@ if catalog_master.status_code == 200:
 
     # bgm
     acbToMp3(bgm_temp_dir, bgm_temp_wav_dir, bgm_dir)
+    bgm_masterlist = []
+    for mp3file in os.listdir(bgm_dir):
+        if mp3file.endswith("mp3"):
+            bgm_masterlist.append(mp3file.split('.mp3')[0])
+    bgm_data = json.dumps(bgm_masterlist, indent=4, ensure_ascii=False)
+    open('./BGMMasterlist.json', "w", encoding='utf8').write(bgm_data)
 
     # se 
     acbToMp3(se_temp_dir, se_temp_wav_dir, se_dir)
+    se_masterlist = []
+    for mp3file in os.listdir(se_dir):
+        if mp3file.endswith("mp3"):
+            se_masterlist.append(mp3file.split('.mp3')[0])
+    se_data = json.dumps(se_masterlist, indent=4, ensure_ascii=False)
+    open('./SEMasterlist.json', "w", encoding='utf8').write(se_data)
