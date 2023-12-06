@@ -61,10 +61,14 @@ def acbToMp3(input_dir, temp_dir, output_dir):
 catalog_master = requests.get(f'{masterlistUrl}/assets/cri-catalog.json')
 if catalog_master.status_code == 200:
     catalog_data = catalog_master.json()
+
+    bgm_urlid = [index for (index, item) in enumerate(catalog_data['m_InternalIdPrefixes']) if 'adventurebgm_assets_adventurebgm' in item][0]
+    se_urlid = [index for (index, item) in enumerate(catalog_data['m_InternalIdPrefixes']) if 'adventurese_assets_se' in item][0]
+
     for asset in catalog_data['m_InternalIds']:
 
         # bgm
-        if asset.startswith('30#'):
+        if asset.startswith(f'{bgm_urlid}#'):
             filename = asset.split('/')[-1]
             name = filename.split('.')[0]
 
@@ -73,7 +77,7 @@ if catalog_master.status_code == 200:
                 open(os.path.join(bgm_temp_dir, f'{name}.acb'), "wb").write(voiceRes.content)
 
         # se
-        if asset.startswith('31#'):
+        if asset.startswith(f'{se_urlid}#'):
             filename = asset.split('/')[-1]
             name = filename.split('.')[0]
 
