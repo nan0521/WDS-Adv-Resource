@@ -2,6 +2,8 @@ import os
 import requests
 import UnityPy
 import json
+import datetime
+import pytz
 
 WDS_Env_Url = os.environ.get("WDS_ENV_URL")
 WDS_Env_Req = requests.post(WDS_Env_Url)
@@ -107,3 +109,21 @@ open(f'./SpineMasterlist.json', "w", encoding='utf8').write(json_data)
 # save background list
 bg_json_data = json.dumps(bgmaster, indent=4, ensure_ascii=False)
 open(f'./BackgroundMasterlist.json', "w", encoding='utf8').write(bg_json_data)
+
+
+gamemaster = json.load(open('./GameStoryMasterlist.json', 'rb')) if os.path.exists('./GameStoryMasterlist.json') else {
+            "LatestDate": '',
+            "ScriptVersion" : "1.0.0",
+            "StoryMaster" : {
+                "Main" : [],
+                "Event" : [],
+                "Side" : [],
+                "Spot" : [],
+                "Poster" : [],
+                "Special" : [],
+            }
+        }
+date = datetime.datetime.now(pytz.timezone('Asia/Tokyo'))
+GameStoryMasterlist['LatestDate'] = date.strftime("%Y-%m-%d %H:%M:%S")
+gamemaster_data = json.dumps(gamemaster, indent=4, ensure_ascii=False)
+open(f'./GameStoryMasterlist.json', "w", encoding='utf8').write(gamemaster_data)

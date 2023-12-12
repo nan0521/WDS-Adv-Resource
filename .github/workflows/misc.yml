@@ -1,6 +1,8 @@
 name: misc
-
+# run at 5:00
 on:
+  schedule:
+      - cron: '0 20 * * *'
   workflow_dispatch :
 
 jobs:
@@ -19,6 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           pip install UnityPy
+          pip install pytz
       - name: fetch misc data
         env:
           WDS_ENV_URL: ${{ secrets.WDS_ENV_URL }}
