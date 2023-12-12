@@ -124,6 +124,6 @@ gamemaster = json.load(open('./GameStoryMasterlist.json', 'rb')) if os.path.exis
             }
         }
 date = datetime.datetime.now(pytz.timezone('Asia/Tokyo'))
-GameStoryMasterlist['LatestDate'] = date.strftime("%Y-%m-%d %H:%M:%S")
+gamemaster['LatestDate'] = date.strftime("%Y-%m-%d %H:%M:%S")
 gamemaster_data = json.dumps(gamemaster, indent=4, ensure_ascii=False)
 open(f'./GameStoryMasterlist.json', "w", encoding='utf8').write(gamemaster_data)
