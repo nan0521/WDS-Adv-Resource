@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2023-12-19 05:14:28",
+    "LatestDate": "2023-12-19 17:23:28",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1322,6 +1322,52 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20016,
+                "Title": "星明かりのおくりもの",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001601,
+                        "Title": "今年のサンタは",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001602,
+                        "Title": "サンタといえば",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001603,
+                        "Title": "いい子のあの子に",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001604,
+                        "Title": "いい子を見守って",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001605,
+                        "Title": "今夜の主役",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001606,
+                        "Title": "雪は座っててパーティ！",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001607,
+                        "Title": "思いを詰めたプレゼント",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001608,
+                        "Title": "いい子がもうひとり",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -2290,6 +2336,20 @@
                         ]
                     },
                     {
+                        "Id": 130370,
+                        "Title": "さあ、どうぞ",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130371,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130372,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140080,
                         "Title": "幼き日の情景",
                         "Episode": [
@@ -2512,6 +2572,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140490,
+                        "Title": "あなたにだけのプレゼント",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140491,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140492,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2586,6 +2660,20 @@
                             },
                             {
                                 "EpisodeId": 140222,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140480,
+                        "Title": "CEOからの特別な……♡",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140481,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140482,
                                 "Order": 2
                             }
                         ]
@@ -9140,6 +9228,15 @@
                 "PronounceName": "ゆきとだんろとないしょのそうだん",
                 "CharacterIds": [
                     105
+                ]
+            },
+            {
+                "Id": 230320,
+                "Name": "裏通りのクリスマス",
+                "PronounceName": "うらどおりのくりすます",
+                "CharacterIds": [
+                    302,
+                    305
                 ]
             }
         ],
