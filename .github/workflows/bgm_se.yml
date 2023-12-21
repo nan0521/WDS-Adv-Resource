@@ -21,6 +21,7 @@ jobs:
           pip install pydub
       - name: Install ffmpeg
         run: |
+          sudo apt update && sudo apt upgrade
           sudo apt install ffmpeg
       - name: bgm_se conversion
         run: |
