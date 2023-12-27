@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2023-12-27 05:12:03",
+    "LatestDate": "2023-12-27 17:22:15",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1368,6 +1368,52 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20017,
+                "Title": "新年はあなたの手を取って",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001701,
+                        "Title": "くるとしのご挨拶",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001702,
+                        "Title": "しんねんあけまして",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001703,
+                        "Title": "ロングロングデイズ",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001704,
+                        "Title": "よい運勢を",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001705,
+                        "Title": "もっと知りたいんだ",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001706,
+                        "Title": "シリウスとカトリナ",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001707,
+                        "Title": "ともだちにお礼を",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001708,
+                        "Title": "ことしもきっと",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -1510,6 +1556,20 @@
                         ]
                     },
                     {
+                        "Id": 130380,
+                        "Title": "開運は実力よね！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130381,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130382,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140200,
                         "Title": "マジカル☆スイーツ",
                         "Episode": [
@@ -1596,6 +1656,20 @@
                             },
                             {
                                 "EpisodeId": 140272,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140500,
+                        "Title": "瑞祥新春の舞",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140501,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140502,
                                 "Order": 2
                             }
                         ]
@@ -2478,6 +2552,20 @@
                             },
                             {
                                 "EpisodeId": 140382,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140510,
+                        "Title": "人里の宴も悪くない",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140511,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140512,
                                 "Order": 2
                             }
                         ]
@@ -9237,6 +9325,15 @@
                 "CharacterIds": [
                     302,
                     305
+                ]
+            },
+            {
+                "Id": 230330,
+                "Name": "龍が神と呼ばれるまで",
+                "PronounceName": "りゅうがかみとよばれるまで",
+                "CharacterIds": [
+                    106,
+                    304
                 ]
             }
         ],
