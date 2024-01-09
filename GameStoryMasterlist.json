@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-01-09 05:10:36",
+    "LatestDate": "2024-01-09 17:23:29",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1414,6 +1414,52 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20018,
+                "Title": "秒針の安息",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001801,
+                        "Title": "子どもと大人",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001802,
+                        "Title": "求めるものは",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001803,
+                        "Title": "刻一刻と",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001804,
+                        "Title": "プライドとリミット",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001805,
+                        "Title": "緑豊かな楽園",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001806,
+                        "Title": "慣れないこと",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001807,
+                        "Title": "吊り橋が渡すもの",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001808,
+                        "Title": "今だけは",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -2088,6 +2134,20 @@
                         ]
                     },
                     {
+                        "Id": 130390,
+                        "Title": "しょうがないわね",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130391,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130392,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140150,
                         "Title": "狂気の果ての虚無",
                         "Episode": [
@@ -2188,6 +2248,20 @@
                             },
                             {
                                 "EpisodeId": 140262,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140550,
+                        "Title": "導きの燐光",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140551,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140552,
                                 "Order": 2
                             }
                         ]
@@ -2356,6 +2430,20 @@
                             },
                             {
                                 "EpisodeId": 140412,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140540,
+                        "Title": "悩める迷宮での出会い",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140541,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140542,
                                 "Order": 2
                             }
                         ]
@@ -9334,6 +9422,15 @@
                 "CharacterIds": [
                     106,
                     304
+                ]
+            },
+            {
+                "Id": 230340,
+                "Name": "ウソつき人形の望むもの",
+                "PronounceName": "うそつきにんぎょうののぞむもの",
+                "CharacterIds": [
+                    203,
+                    205
                 ]
             }
         ],
