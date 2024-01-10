@@ -544,6 +544,7 @@
             "SpeakerName": "大黒",
             "FontSize": 2,
             "Phrase": "うだうだ言ってられる状況じゃないでしょ……私の肩に捕まって。/nほら……行くわよ。",
+            "BackgroundCharacterImageFileName": "130390_0",
             "VoiceFileName": "20018070150",
             "CharacterMotions": [],
             "SpeakerIconId": "202"
@@ -556,6 +557,7 @@
             "SpeakerName": "しぐれ",
             "FontSize": 2,
             "Phrase": "あ……。",
+            "BackgroundCharacterImageFileName": "130390_0",
             "VoiceFileName": "20018070160",
             "CharacterMotions": [],
             "SpeakerIconId": "205"
@@ -568,6 +570,7 @@
             "SpeakerName": "大黒",
             "FontSize": 2,
             "Phrase": "足元、見ないほうがいいわよ……。/n引っ張ってあげるから……私に合わせなさい。",
+            "BackgroundCharacterImageFileName": "130390_0",
             "VoiceFileName": "20018070170",
             "CharacterMotions": [],
             "SpeakerIconId": "202"
@@ -580,6 +583,7 @@
             "SpeakerName": "しぐれ",
             "FontSize": 2,
             "Phrase": "は、はい……。",
+            "BackgroundCharacterImageFileName": "130390_0",
             "VoiceFileName": "20018070180",
             "CharacterMotions": [],
             "SpeakerIconId": "205"

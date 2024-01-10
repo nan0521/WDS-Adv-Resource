@@ -1199,6 +1199,7 @@
             "SpeakerName": "しぐれ",
             "FontSize": 2,
             "Phrase": "（言われなくても、止まるわけにはいかない。/n　変わらず時間は流れていくんだから）",
+            "BackgroundCharacterImageFileName": "140540_0",
             "VoiceFileName": "20018080430",
             "CharacterMotions": [],
             "SpeakerIconId": "205"
@@ -1211,6 +1212,7 @@
             "SpeakerName": "しぐれ",
             "FontSize": 2,
             "Phrase": "（この場所に、Edenに居続けるためには、/n　早くダイスターにならなくちゃ）",
+            "BackgroundCharacterImageFileName": "140540_0",
             "VoiceFileName": "20018080440",
             "CharacterMotions": [],
             "SpeakerIconId": "205"
@@ -1223,6 +1225,7 @@
             "SpeakerName": "しぐれ",
             "FontSize": 2,
             "Phrase": "（だけど……今だけは。/n　この時間だけは、忘れてもいいよね）",
+            "BackgroundCharacterImageFileName": "140540_0",
             "VoiceFileName": "20018080450",
             "CharacterMotions": [],
             "SpeakerIconId": "205"

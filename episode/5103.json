@@ -61,7 +61,7 @@
             "GroupOrder": 2,
             "SpeakerName": "しぐれ",
             "FontSize": 2,
-            "Phrase": "車の動きなんでどれも同じだと思うんですけど？",
+            "Phrase": "車の動きなんてどれも同じだと思うんですけど？",
             "VoiceFileName": "51030020",
             "CharacterMotions": [
                 {
@@ -298,7 +298,7 @@
             "GroupOrder": 8,
             "SpeakerName": "しぐれ",
             "FontSize": 2,
-            "Phrase": "はあ……。/n別に車とか乗って動ければなんでもいいじゃないですか。",
+            "Phrase": "はあ……。/n別に車とか乗って動けばなんでもいいじゃないですか。",
             "VoiceFileName": "51030080",
             "CharacterMotions": [
                 {

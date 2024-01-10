@@ -1624,6 +1624,7 @@
             "Phrase": "",
             "BgmFileName": "8",
             "SeFileName": "71",
+            "WindowEffect": 1,
             "CharacterMotions": []
         },
         {
@@ -2294,6 +2295,7 @@
             "SpeakerName": "仁花子",
             "FontSize": 2,
             "Phrase": "そうかな？/n私は、しぐれちゃんのこともっと知りたいって思うよ。",
+            "BackgroundCharacterImageFileName": "140550_0",
             "VoiceFileName": "20018040740",
             "CharacterMotions": [],
             "SpeakerIconId": "203"
@@ -2306,6 +2308,7 @@
             "SpeakerName": "しぐれ",
             "FontSize": 2,
             "Phrase": "人のことに首突っ込んでくるなら、/n自分の練習したらどうですかぁ？",
+            "BackgroundCharacterImageFileName": "140550_0",
             "VoiceFileName": "20018040750",
             "CharacterMotions": [],
             "SpeakerIconId": "205"
@@ -2318,6 +2321,7 @@
             "SpeakerName": "仁花子",
             "FontSize": 2,
             "Phrase": "あはは……。/nだね、まずはみんなに追いつかないとだ。",
+            "BackgroundCharacterImageFileName": "140550_0",
             "VoiceFileName": "20018040760",
             "CharacterMotions": [],
             "SpeakerIconId": "203"
@@ -2330,6 +2334,7 @@
             "SpeakerName": "しぐれ",
             "FontSize": 2,
             "Phrase": "ま、仁花子先輩らしいっちゃらしいけど。",
+            "BackgroundCharacterImageFileName": "140550_0",
             "VoiceFileName": "20018040770",
             "CharacterMotions": [],
             "SpeakerIconId": "205"
@@ -2342,6 +2347,7 @@
             "SpeakerName": "しぐれ",
             "FontSize": 2,
             "Phrase": "さっさと追いついてきて……、/nしぐれが納得するぐらいの演技、見せてくださいよ。",
+            "BackgroundCharacterImageFileName": "140550_0",
             "VoiceFileName": "20018040780",
             "CharacterMotions": [],
             "SpeakerIconId": "205"
@@ -2354,6 +2360,7 @@
             "SpeakerName": "仁花子",
             "FontSize": 2,
             "Phrase": "うん！/nほめてもらえるようにがんばるね。",
+            "BackgroundCharacterImageFileName": "140550_0",
             "VoiceFileName": "20018040790",
             "CharacterMotions": [],
             "SpeakerIconId": "203"
