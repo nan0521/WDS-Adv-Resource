@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-01-18 05:17:22",
+    "LatestDate": "2024-01-18 17:24:41",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1460,6 +1460,52 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20019,
+                "Title": "14光年はなれた隣で",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001901,
+                        "Title": "へいらっしゃい！",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001902,
+                        "Title": "一緒にやってみよう",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001903,
+                        "Title": "ぱんだと流石",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001904,
+                        "Title": "仲良しな幼馴染",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001905,
+                        "Title": "まかせて",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001906,
+                        "Title": "S.K.A.T.E",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001907,
+                        "Title": "心の底から",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001908,
+                        "Title": "いつものふたり",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -1784,6 +1830,20 @@
                         ]
                     },
                     {
+                        "Id": 130400,
+                        "Title": "口いっぱいに広がる海の味",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130401,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130402,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140020,
                         "Title": "大切で大好きな劇団",
                         "Episode": [
@@ -1901,6 +1961,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140570,
+                        "Title": "マジカルポップウィッチ",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140571,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140572,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -1989,6 +2063,20 @@
                             },
                             {
                                 "EpisodeId": 140352,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140560,
+                        "Title": "ナイト・オブ・ビビッド",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140561,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140562,
                                 "Order": 2
                             }
                         ]
@@ -9360,6 +9448,15 @@
                 ]
             },
             {
+                "Id": 230240,
+                "Name": "オペラ座の怪人",
+                "PronounceName": "おぺらざのかいじん",
+                "CharacterIds": [
+                    201,
+                    205
+                ]
+            },
+            {
                 "Id": 230250,
                 "Name": "魔法少女カリュー",
                 "PronounceName": "まほうしょうじょかりゅー",
@@ -9431,6 +9528,14 @@
                 "CharacterIds": [
                     203,
                     205
+                ]
+            },
+            {
+                "Id": 230350,
+                "Name": "ウィリアム・テルと自由の民",
+                "PronounceName": "うぃりあむてるとじゆうのたみ",
+                "CharacterIds": [
+                    103
                 ]
             }
         ],
