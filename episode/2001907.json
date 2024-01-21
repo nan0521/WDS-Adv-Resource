@@ -849,7 +849,7 @@
                     "slotNumber": 1,
                     "FacialExpressionMasterId": 400,
                     "BodyMotionMasterId": 25,
-                    "SpineId": 0,
+                    "SpineId": 10601,
                     "CharacterAppearanceType": 0,
                     "CharacterPosition": 3,
                     "CharacterLayerType": 1,
