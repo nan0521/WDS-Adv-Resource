@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-01-25 05:13:10",
+    "LatestDate": "2024-01-25 17:34:03",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -673,6 +673,113 @@
                     {
                         "EpisodeId": 1040120,
                         "Title": "ようこそ電姫へ",
+                        "Order": 20
+                    }
+                ]
+            },
+            {
+                "Id": 10402,
+                "CompanyId": 4,
+                "ChapterOrder": 2,
+                "Episode": [
+                    {
+                        "EpisodeId": 1040201,
+                        "Title": "ブレない人たち",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 1040202,
+                        "Title": "謎の少女",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 1040203,
+                        "Title": "オリンポスの未来",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 1040204,
+                        "Title": "叶羽、絶好調",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 1040205,
+                        "Title": "叶羽、大ピンチ",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 1040206,
+                        "Title": "不思議の国のアリス",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 1040207,
+                        "Title": "電姫、注目される",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 1040208,
+                        "Title": "電姫の先輩",
+                        "Order": 8
+                    },
+                    {
+                        "EpisodeId": 1040209,
+                        "Title": "狛江地歩（前編）",
+                        "Order": 9
+                    },
+                    {
+                        "EpisodeId": 1040210,
+                        "Title": "狛江地歩（中編）",
+                        "Order": 10
+                    },
+                    {
+                        "EpisodeId": 1040211,
+                        "Title": "狛江地歩（後編）",
+                        "Order": 11
+                    },
+                    {
+                        "EpisodeId": 1040212,
+                        "Title": "傷ついた羽根",
+                        "Order": 12
+                    },
+                    {
+                        "EpisodeId": 1040213,
+                        "Title": "暗闇",
+                        "Order": 13
+                    },
+                    {
+                        "EpisodeId": 1040214,
+                        "Title": "叶羽といろは",
+                        "Order": 14
+                    },
+                    {
+                        "EpisodeId": 1040215,
+                        "Title": "センスの有無",
+                        "Order": 15
+                    },
+                    {
+                        "EpisodeId": 1040216,
+                        "Title": "舞い上がる羽根",
+                        "Order": 16
+                    },
+                    {
+                        "EpisodeId": 1040217,
+                        "Title": "湧き上がる力",
+                        "Order": 17
+                    },
+                    {
+                        "EpisodeId": 1040218,
+                        "Title": "ワンダーランド",
+                        "Order": 18
+                    },
+                    {
+                        "EpisodeId": 1040219,
+                        "Title": "私の光",
+                        "Order": 19
+                    },
+                    {
+                        "EpisodeId": 1040220,
+                        "Title": "連鎖爆発",
                         "Order": 20
                     }
                 ]
@@ -3151,6 +3258,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140530,
+                        "Title": "Electric Tea Party",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140531,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140532,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -3512,6 +3633,20 @@
                             },
                             {
                                 "EpisodeId": 140402,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140520,
+                        "Title": "Electric Wonderland",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140521,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140522,
                                 "Order": 2
                             }
                         ]
