@@ -776,8 +776,10 @@
             "EpisodeMasterId": 1040218,
             "Order": 1,
             "GroupOrder": 42,
+            "SpeakerName": "地歩",
             "FontSize": 2,
-            "Phrase": "",
+            "Phrase": "……。",
+            "VoiceFileName": "0",
             "CharacterMotions": [
                 {
                     "slotNumber": 1,
@@ -789,7 +791,8 @@
                     "CharacterLayerType": 1,
                     "SpineSize": 2
                 }
-            ]
+            ],
+            "SpeakerIconId": "511"
         },
         {
             "Id": 1040218043,
