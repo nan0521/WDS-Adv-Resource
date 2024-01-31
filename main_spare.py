@@ -222,6 +222,7 @@ if StoryEvent.status_code == 200:
             GameStoryMasterlist["StoryMaster"]["Event"].append({
                 "Id" : story["Id"],
                 "Title": story["Title"],
+                'Date' : story["StartDate"].split(' ')[0],
                 "Episode" : []
             })
             # 更新卡片照片
@@ -232,7 +233,7 @@ if StoryEvent.status_code == 200:
                     data = obj.read()
                     data.image.save(os.path.join(eventImage_dir, f'logo_{story["Id"]}.png'))
 
-    GameStoryMasterlist["StoryMaster"]["Event"].sort(key = lambda x: x["Id"] )
+    GameStoryMasterlist["StoryMaster"]["Event"].sort(key = lambda x: x["Date"] )
 
 masterlistres = requests.get(f'{masterlistUrl}/StoryEventEpisodeMaster.json')
 if masterlistres.status_code == 200:
