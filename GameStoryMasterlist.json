@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-01-31 05:19:13",
+    "LatestDate": "2024-01-31 17:20:59",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1385,6 +1385,52 @@
                 ]
             },
             {
+                "Id": 20014,
+                "Title": "メモワールに約束を",
+                "Episode": [
+                    {
+                        "EpisodeId": 2001401,
+                        "Title": "ぱんだの提案",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2001402,
+                        "Title": "ここなのこと",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2001403,
+                        "Title": "ここなの舞台",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2001404,
+                        "Title": "静香の知らない記憶",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2001405,
+                        "Title": "ふたりの願い。ひとつの想い",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2001406,
+                        "Title": "ファントムの目覚め",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2001407,
+                        "Title": "静かな願い",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2001408,
+                        "Title": "新しい夢、ふたりの約束",
+                        "Order": 8
+                    }
+                ]
+            },
+            {
                 "Id": 20015,
                 "Title": "泡雪でありますように",
                 "Episode": [
@@ -1704,6 +1750,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140450,
+                        "Title": "片割れを見つけた鳥",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140451,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140452,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -1781,6 +1841,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140440,
+                        "Title": "その手を取り、翼並べて",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140441,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140442,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -1827,6 +1901,20 @@
                             },
                             {
                                 "EpisodeId": 130032,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130350,
+                        "Title": "ファントムの面影を宿す天才",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130351,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130352,
                                 "Order": 2
                             }
                         ]
@@ -9628,6 +9716,15 @@
                 "CharacterIds": [
                     202,
                     203
+                ]
+            },
+            {
+                "Id": 230300,
+                "Name": "野望の博士と孤独な怪物",
+                "PronounceName": "やぼうのはかせとこどくなかいぶつ",
+                "CharacterIds": [
+                    102,
+                    105
                 ]
             },
             {
