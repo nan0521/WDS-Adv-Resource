@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-02-08 05:09:49",
+    "LatestDate": "2024-02-08 18:17:36",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1678,6 +1678,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20021,
+                "Title": "Valentine Cocktail Hour",
+                "Date": "2024-02-09",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002101,
+                        "Title": "バレンタインの食前酒",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002102,
+                        "Title": "フルコースを楽しみたい",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002103,
+                        "Title": "贈り物はコミュニケーション",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002104,
+                        "Title": "チョコレートフェスティバル",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002105,
+                        "Title": "ピンチと気付き",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002106,
+                        "Title": "感謝を込めて",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002107,
+                        "Title": "メインディッシュは！？",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002108,
+                        "Title": "ハッピーバレンタイン",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -2385,6 +2432,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140600,
+                        "Title": "ひと口で落ちる甘やかな酔い",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140601,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140602,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2658,6 +2719,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140610,
+                        "Title": "求め焦がれる危険な味わい",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140611,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140612,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2704,6 +2779,20 @@
                             },
                             {
                                 "EpisodeId": 130112,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130420,
+                        "Title": "どれにしようかな？",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130421,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130422,
                                 "Order": 2
                             }
                         ]
@@ -9787,6 +9876,15 @@
                 "PronounceName": "うぃりあむてるとじゆうのたみ",
                 "CharacterIds": [
                     103
+                ]
+            },
+            {
+                "Id": 230380,
+                "Name": "王様の秘密はチャームポイント",
+                "PronounceName": "おうさまのひみつはちゃーむぽいんと",
+                "CharacterIds": [
+                    202,
+                    203
                 ]
             }
         ],
