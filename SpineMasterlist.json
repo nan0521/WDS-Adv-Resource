@@ -610,6 +610,11 @@
         "CompanyId": 4
     },
     {
+        "Id": 40206,
+        "CharacterId": 402,
+        "CompanyId": 4
+    },
+    {
         "Id": 40208,
         "CharacterId": 402,
         "CompanyId": 4
@@ -646,6 +651,11 @@
     },
     {
         "Id": 40303,
+        "CharacterId": 403,
+        "CompanyId": 4
+    },
+    {
+        "Id": 40306,
         "CharacterId": 403,
         "CompanyId": 4
     },
