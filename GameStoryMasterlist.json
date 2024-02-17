@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-02-17 05:23:30",
+    "LatestDate": "2024-02-17 18:24:37",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1722,6 +1722,53 @@
                     {
                         "EpisodeId": 2002108,
                         "Title": "ハッピーバレンタイン",
+                        "Order": 8
+                    }
+                ]
+            },
+            {
+                "Id": 20020,
+                "Title": "ギャルからオタクに転身してみた件",
+                "Date": "2024-02-18",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002001,
+                        "Title": "異世界人",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002002,
+                        "Title": "ハマってみたりして？",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002003,
+                        "Title": "らしくないかも",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002004,
+                        "Title": "好きに話していいんだよ",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002005,
+                        "Title": "転生者",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002006,
+                        "Title": "一挙上映会！",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002007,
+                        "Title": "ちょっとだけ進化",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002008,
+                        "Title": "転生したら電姫だった件",
                         "Order": 8
                     }
                 ]
@@ -3559,6 +3606,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140890,
+                        "Title": "朱の菜花は春を告げ",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140891,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140892,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -3647,6 +3708,20 @@
                             },
                             {
                                 "EpisodeId": 140472,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140880,
+                        "Title": "春の紫苑も良いでしょう？",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140881,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140882,
                                 "Order": 2
                             }
                         ]
@@ -3801,6 +3876,20 @@
                             },
                             {
                                 "EpisodeId": 130312,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130560,
+                        "Title": "フラワー・テンペスト",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130561,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130562,
                                 "Order": 2
                             }
                         ]
