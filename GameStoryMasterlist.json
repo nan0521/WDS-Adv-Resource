@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-02-29 05:12:34",
+    "LatestDate": "2024-02-29 18:30:14",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1772,6 +1772,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20025,
+                "Title": "#指先がつむぐ暗黒",
+                "Date": "2024-02-29",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002501,
+                        "Title": "私以外が騒がしい教室",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002502,
+                        "Title": "いつものルーティンから",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002503,
+                        "Title": "指先がつむぐ暗黒",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002504,
+                        "Title": "＠カオス.net",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002505,
+                        "Title": "オーディエンス",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002506,
+                        "Title": "ソリチュード",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002507,
+                        "Title": "深淵から星を見上げて",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002508,
+                        "Title": "＃ピリオド",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -2584,6 +2631,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140680,
+                        "Title": "カオティックキュート",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140681,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140682,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2630,6 +2691,20 @@
                             },
                             {
                                 "EpisodeId": 130092,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130460,
+                        "Title": "おずおずスクロール",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130461,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130462,
                                 "Order": 2
                             }
                         ]
@@ -2882,6 +2957,20 @@
                             },
                             {
                                 "EpisodeId": 140542,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140690,
+                        "Title": "サイバーガーディアン",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140691,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140692,
                                 "Order": 2
                             }
                         ]
@@ -9974,6 +10063,14 @@
                 "CharacterIds": [
                     202,
                     203
+                ]
+            },
+            {
+                "Id": 230420,
+                "Name": "かつてはアヒルの子",
+                "PronounceName": "かつてはあひるのこ",
+                "CharacterIds": [
+                    204
                 ]
             }
         ],
