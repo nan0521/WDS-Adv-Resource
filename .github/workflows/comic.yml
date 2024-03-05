@@ -1,4 +1,4 @@
-name: misc
+name: comic
 
 on:
   workflow_dispatch :
