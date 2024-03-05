@@ -34,6 +34,12 @@ jobs:
           SCRIPT_VERSION: ${{ secrets.SCRIPT_VERSION }}
         run: |
           python main_spare.py
+      - name: Fetch Comic
+        env:
+          WDS_ENV_URL: ${{ secrets.WDS_ENV_URL }}
+          WDS_MASTERLIST_URL: ${{ secrets.WDS_MASTERLIST_URL_SPARE }}
+        run: |
+          python comic.py
       - name: Install ffmpeg
         run: |
           sudo apt update && sudo apt upgrade
