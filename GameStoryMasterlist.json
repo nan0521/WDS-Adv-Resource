@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-03-07 05:08:37",
+    "LatestDate": "2024-03-07 18:15:44",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1819,6 +1819,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20042,
+                "Title": "ステラリズムシューターズ！",
+                "Date": "2024-03-10",
+                "Episode": [
+                    {
+                        "EpisodeId": 2004201,
+                        "Title": "目指せ！　高級ドライヤー！",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2004202,
+                        "Title": "自称・世話焼き、ラモーナ",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2004203,
+                        "Title": "カフェ de スカウト",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2004204,
+                        "Title": "ゲーセン☆チャンス！",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2004205,
+                        "Title": "撮ってスローでトントントン",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2004206,
+                        "Title": "Let's Shoot!",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2004207,
+                        "Title": "はじめてのエール",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2004208,
+                        "Title": "ぷれぜんと・ふぉー……",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -3380,6 +3427,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140900,
+                        "Title": "江楓にお覚悟を",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140901,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140902,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -3440,6 +3501,20 @@
                             },
                             {
                                 "EpisodeId": 130322,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130570,
+                        "Title": "茜染め・世界征服",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130571,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130572,
                                 "Order": 2
                             }
                         ]
@@ -4021,6 +4096,20 @@
                             },
                             {
                                 "EpisodeId": 140522,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140910,
+                        "Title": "天才の有る栖にようこそ",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140911,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140912,
                                 "Order": 2
                             }
                         ]
