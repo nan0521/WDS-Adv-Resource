@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-03-18 05:14:55",
+    "LatestDate": "2024-03-18 18:30:47",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1866,6 +1866,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20024,
+                "Title": "7番目のエトワールをさがして",
+                "Date": "2024-03-21",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002401,
+                        "Title": "ヒツジの絵をかいて",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002402,
+                        "Title": "お姫さまと王子さま",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002403,
+                        "Title": "ダイスターの王子さま",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002404,
+                        "Title": "星々のあしあと",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002405,
+                        "Title": "とりかえっこしよう",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002406,
+                        "Title": "おとなとこども",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002407,
+                        "Title": "バラと王子さま",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002408,
+                        "Title": "夜空を見れば思い出す",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -1968,6 +2015,20 @@
                             },
                             {
                                 "EpisodeId": 140452,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140670,
+                        "Title": "夜空を見れば、思い出す",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140671,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140672,
                                 "Order": 2
                             }
                         ]
@@ -2272,6 +2333,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140660,
+                        "Title": "いちばんたいせつなことは",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140661,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140662,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2332,6 +2407,20 @@
                             },
                             {
                                 "EpisodeId": 130302,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130450,
+                        "Title": "言うだけタダですし！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130451,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130452,
                                 "Order": 2
                             }
                         ]
@@ -10152,6 +10241,15 @@
                 "CharacterIds": [
                     202,
                     203
+                ]
+            },
+            {
+                "Id": 230410,
+                "Name": "幸福な王子の贈り物",
+                "PronounceName": "こうふくなおうじのおくりもの",
+                "CharacterIds": [
+                    103,
+                    106
                 ]
             },
             {
