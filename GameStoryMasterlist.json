@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-03-29 05:27:20",
+    "LatestDate": "2024-03-29 18:30:27",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1913,6 +1913,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20022,
+                "Title": "トロイメライと悪魔",
+                "Date": "2024-03-31",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002201,
+                        "Title": "天上の序曲",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002202,
+                        "Title": "天才学者と悪魔",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002203,
+                        "Title": "悪魔との契約",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002204,
+                        "Title": "善意の第三者",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002205,
+                        "Title": "悪魔の証明",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002206,
+                        "Title": "神はサイコロを",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002207,
+                        "Title": "時よとまれ",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002208,
+                        "Title": "機械仕掛けの神様",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -3768,6 +3815,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140630,
+                        "Title": "水海に月は満ち",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140631,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140632,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -3828,6 +3889,20 @@
                             },
                             {
                                 "EpisodeId": 130362,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130430,
+                        "Title": "みんなが大切だからこそ",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130431,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130432,
                                 "Order": 2
                             }
                         ]
@@ -4066,6 +4141,20 @@
                             },
                             {
                                 "EpisodeId": 140372,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140620,
+                        "Title": "華は海底に眠る",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140621,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140622,
                                 "Order": 2
                             }
                         ]
@@ -10241,6 +10330,15 @@
                 "CharacterIds": [
                     202,
                     203
+                ]
+            },
+            {
+                "Id": 230390,
+                "Name": "ファウストちゃん！",
+                "PronounceName": "ふぁうすとちゃん",
+                "CharacterIds": [
+                    403,
+                    404
                 ]
             },
             {
