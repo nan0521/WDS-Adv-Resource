@@ -408,9 +408,6 @@
             "CharacterMotions": [
                 {
                     "slotNumber": 1,
-                    "HeadMotionMasterId": 1,
-                    "BodyMotionMasterId": 8,
-                    "LipSyncMasterId": 1,
                     "SpineId": 0,
                     "CharacterAppearanceType": 0,
                     "CharacterPosition": 2,
@@ -443,6 +440,10 @@
             "CharacterMotions": [
                 {
                     "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
                     "SpineId": 0,
                     "CharacterAppearanceType": 0,
                     "CharacterPosition": 2,

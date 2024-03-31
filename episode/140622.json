@@ -420,6 +420,7 @@
                     "slotNumber": 1,
                     "FacialExpressionMasterId": 102,
                     "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
                     "SpineId": 40201,
                     "CharacterAppearanceType": 0,
                     "CharacterPosition": 3,
