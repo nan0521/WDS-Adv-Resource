@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-04-09 05:14:06",
+    "LatestDate": "2024-04-09 19:14:55",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -1960,6 +1960,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20027,
+                "Title": "Bloom Time-Lapse",
+                "Date": "2024-04-10",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002701,
+                        "Title": "シリウス伝統の……？",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002702,
+                        "Title": "最高の余興と最高の食事",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002703,
+                        "Title": "特別なこと？",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002704,
+                        "Title": "絵本みたいなアルバムを",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002705,
+                        "Title": "諦めちゃ、ダメです！",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002706,
+                        "Title": "先輩と後輩",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002707,
+                        "Title": "かんぱーい！",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002708,
+                        "Title": "思い出をめくって",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -2076,6 +2123,20 @@
                             },
                             {
                                 "EpisodeId": 140672,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140720,
+                        "Title": "絵本から飛び出せば",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140721,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140722,
                                 "Order": 2
                             }
                         ]
@@ -2230,6 +2291,20 @@
                             },
                             {
                                 "EpisodeId": 130352,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130480,
+                        "Title": "別に心配なんか……",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130481,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130482,
                                 "Order": 2
                             }
                         ]
@@ -2510,6 +2585,20 @@
                             },
                             {
                                 "EpisodeId": 140572,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140730,
+                        "Title": "思い出のカルテリーノ",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140731,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140732,
                                 "Order": 2
                             }
                         ]
