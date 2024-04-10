@@ -1188,7 +1188,7 @@
             "GroupOrder": 42,
             "SpeakerName": "ぱんだ",
             "FontSize": 2,
-            "Phrase": "あの時は『この新人大丈夫か～？』と思いましたけど、/n今ではこんなに立派になって……。",
+            "Phrase": "あの時は『この新人大丈夫か～？』と思いましたけど、",
             "VoiceFileName": "20024050400",
             "CharacterMotions": [
                 {
@@ -1216,6 +1216,38 @@
         },
         {
             "Id": 2002405046,
+            "EpisodeMasterId": 2002405,
+            "Order": 2,
+            "GroupOrder": 42,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "今ではこんなに立派になって……。",
+            "VoiceFileName": "20024050401",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 23,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002405047,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 43,
@@ -1247,7 +1279,7 @@
             "SpeakerIconId": "102"
         },
         {
-            "Id": 2002405047,
+            "Id": 2002405048,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 44,
@@ -1279,7 +1311,7 @@
             "SpeakerIconId": "105"
         },
         {
-            "Id": 2002405048,
+            "Id": 2002405049,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 45,
@@ -1303,7 +1335,7 @@
             "SpeakerIconId": "101"
         },
         {
-            "Id": 2002405049,
+            "Id": 2002405050,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 46,
@@ -1327,7 +1359,7 @@
             "SpeakerIconId": "103"
         },
         {
-            "Id": 2002405050,
+            "Id": 2002405051,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 47,
@@ -1350,7 +1382,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405051,
+            "Id": 2002405052,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 48,
@@ -1374,7 +1406,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405052,
+            "Id": 2002405053,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 49,
@@ -1398,7 +1430,7 @@
             "SpeakerIconId": "106"
         },
         {
-            "Id": 2002405053,
+            "Id": 2002405054,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 50,
@@ -1430,7 +1462,7 @@
             "SpeakerIconId": "105"
         },
         {
-            "Id": 2002405054,
+            "Id": 2002405055,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 51,
@@ -1453,7 +1485,7 @@
             "SpeakerIconId": "101"
         },
         {
-            "Id": 2002405055,
+            "Id": 2002405056,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 52,
@@ -1477,7 +1509,7 @@
             "SpeakerIconId": "102"
         },
         {
-            "Id": 2002405056,
+            "Id": 2002405057,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 53,
@@ -1501,7 +1533,7 @@
             "SpeakerIconId": "101"
         },
         {
-            "Id": 2002405057,
+            "Id": 2002405058,
             "EpisodeMasterId": 2002405,
             "Order": 2,
             "GroupOrder": 53,
@@ -1525,7 +1557,7 @@
             "SpeakerIconId": "101"
         },
         {
-            "Id": 2002405058,
+            "Id": 2002405059,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 54,
@@ -1549,7 +1581,7 @@
             "SpeakerIconId": "103"
         },
         {
-            "Id": 2002405059,
+            "Id": 2002405060,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 55,
@@ -1581,7 +1613,7 @@
             "SpeakerIconId": "102"
         },
         {
-            "Id": 2002405060,
+            "Id": 2002405061,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 56,
@@ -1614,7 +1646,7 @@
             "SpeakerIconId": "103"
         },
         {
-            "Id": 2002405061,
+            "Id": 2002405062,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 57,
@@ -1638,7 +1670,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405062,
+            "Id": 2002405063,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 58,
@@ -1671,7 +1703,7 @@
             "SpeakerIconId": "101"
         },
         {
-            "Id": 2002405063,
+            "Id": 2002405064,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 59,
@@ -1704,7 +1736,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405064,
+            "Id": 2002405065,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 60,
@@ -1729,7 +1761,7 @@
             "SpeakerIconId": "105"
         },
         {
-            "Id": 2002405065,
+            "Id": 2002405066,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 61,
@@ -1754,7 +1786,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405066,
+            "Id": 2002405067,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 62,
@@ -1778,7 +1810,7 @@
             "SpeakerIconId": "101"
         },
         {
-            "Id": 2002405067,
+            "Id": 2002405068,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 63,
@@ -1802,7 +1834,7 @@
             "SpeakerIconId": "105"
         },
         {
-            "Id": 2002405068,
+            "Id": 2002405069,
             "EpisodeMasterId": 2002405,
             "Order": 2,
             "GroupOrder": 63,
@@ -1826,7 +1858,7 @@
             "SpeakerIconId": "105"
         },
         {
-            "Id": 2002405069,
+            "Id": 2002405070,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 64,
@@ -1841,7 +1873,7 @@
             "FadeValue3": 0.5
         },
         {
-            "Id": 2002405070,
+            "Id": 2002405071,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 65,
@@ -1854,7 +1886,7 @@
             "SpeakerIconId": "106"
         },
         {
-            "Id": 2002405071,
+            "Id": 2002405072,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 66,
@@ -1867,7 +1899,7 @@
             "SpeakerIconId": "103"
         },
         {
-            "Id": 2002405072,
+            "Id": 2002405073,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 67,
@@ -1880,7 +1912,7 @@
             "SpeakerIconId": "101"
         },
         {
-            "Id": 2002405073,
+            "Id": 2002405074,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 68,
@@ -1904,7 +1936,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405074,
+            "Id": 2002405075,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 69,
@@ -1929,7 +1961,7 @@
             "SpeakerIconId": "102"
         },
         {
-            "Id": 2002405075,
+            "Id": 2002405076,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 70,
@@ -1954,7 +1986,7 @@
             "SpeakerIconId": "101"
         },
         {
-            "Id": 2002405076,
+            "Id": 2002405077,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 71,
@@ -1979,7 +2011,7 @@
             "SpeakerIconId": "106"
         },
         {
-            "Id": 2002405077,
+            "Id": 2002405078,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 72,
@@ -2003,7 +2035,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405078,
+            "Id": 2002405079,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 73,
@@ -2026,7 +2058,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405079,
+            "Id": 2002405080,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 74,
@@ -2048,7 +2080,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405080,
+            "Id": 2002405081,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 75,
@@ -2072,7 +2104,7 @@
             "SpeakerIconId": "104"
         },
         {
-            "Id": 2002405081,
+            "Id": 2002405082,
             "EpisodeMasterId": 2002405,
             "Order": 1,
             "GroupOrder": 76,
