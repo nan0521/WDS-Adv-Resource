@@ -309,7 +309,7 @@
                     "slotNumber": 2,
                     "FacialExpressionMasterId": 105,
                     "BodyMotionMasterId": 21,
-                    "LipSyncMasterId": 4,
+                    "LipSyncMasterId": 1,
                     "SpineId": 0,
                     "CharacterAppearanceType": 0,
                     "CharacterPosition": 4,
@@ -925,8 +925,11 @@
             "FontSize": 2,
             "Phrase": "",
             "BackgroundImageFileName": "120",
+            "BackgroundImageFileFadeType": 4,
             "BgmFileName": "999",
-            "CharacterMotions": []
+            "CharacterMotions": [],
+            "FadeValue1": 0.5,
+            "FadeValue3": 0.5
         },
         {
             "Id": 2002507031,
