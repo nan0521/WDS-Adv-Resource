@@ -210,6 +210,7 @@ if masterlistres.status_code == 200:
                     if voiceRes.status_code == 200:
                         open(os.path.join(temp_dir, f'{data["Id"]}.acb'), "wb").write(voiceRes.content)
             except:
+                print(data["Id"])
                 continue
 
             # 列表排序
@@ -267,6 +268,7 @@ if masterlistres.status_code == 200:
                     if voiceRes.status_code == 200:
                         open(os.path.join(temp_dir, f'{data["Id"]}.acb'), "wb").write(voiceRes.content)
             except:
+                print(data["Id"])
                 continue
             # 列表排序
             GroupIsexit["Episode"].sort(key = lambda x: x["EpisodeId"] )
@@ -335,6 +337,7 @@ if masterlistres.status_code == 200:
                         if voiceRes.status_code == 200:
                             open(os.path.join(temp_dir, f'{ep["EpisodeMasterId"]}.acb'), "wb").write(voiceRes.content)
                 except:
+                    print(ep["EpisodeMasterId"])
                     continue
             # 列表排序
             group["Episode"].sort(key = lambda x: x["EpisodeId"])
@@ -379,6 +382,7 @@ if masterlistres.status_code == 200:
                 if voiceRes.status_code == 200:
                     open(os.path.join(temp_dir, f'{data["EpisodeMasterId"]}.acb'), "wb").write(voiceRes.content)
         except:
+            print(data["EpisodeMasterId"])
             continue
 
     # 列表排序
@@ -468,6 +472,7 @@ if masterlistres.status_code == 200:
                 if voiceRes.status_code == 200:
                     open(os.path.join(temp_dir, f'{data["SplashValue"]}.acb'), "wb").write(voiceRes.content)
         except:
+            print(data["SplashValue"])
             continue
 
     # 列表排序
