@@ -190,24 +190,27 @@ if masterlistres.status_code == 200:
             # 檢查列表中屬於這個故事所有的Episode
             orderlist = [item["Id"] for item in EpisodeMasterlist if item.get('StoryMasterId') == data["StoryMasterId"]]
             # 生成故事文檔
-            res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["Id"]}.bin')
-            if res.status_code == 200:
-                msgdata = msgpack_lz4block.deserialize(res.content)
-                to_json = createFormat(data["Id"], 1, data["Order"], data["Title"], addKey(msgdata), orderlist)
-                json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
-                open(os.path.join(EPBase_dir, f'{data["Id"]}.json'), "w", encoding='utf8').write(json_data)
-            # 檢查列表中是否存在
-            Isexit = [item for item in GroupIsexit["Episode"] if item.get('EpisodeId') == data["Id"]]
-            if not len(Isexit) > 0:
-                GroupIsexit["Episode"].append({
-                    "EpisodeId" : data["Id"],
-                    "Title" : data["Title"],
-                    "Order" : data["Order"],
-                })
-                # 生成語音檔
-                voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["Id"]}.acb.bundle')
-                if voiceRes.status_code == 200:
-                    open(os.path.join(temp_dir, f'{data["Id"]}.acb'), "wb").write(voiceRes.content)
+            try:
+                res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["Id"]}.bin')
+                if res.status_code == 200:
+                    msgdata = msgpack_lz4block.deserialize(res.content)
+                    to_json = createFormat(data["Id"], 1, data["Order"], data["Title"], addKey(msgdata), orderlist)
+                    json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
+                    open(os.path.join(EPBase_dir, f'{data["Id"]}.json'), "w", encoding='utf8').write(json_data)
+                # 檢查列表中是否存在
+                Isexit = [item for item in GroupIsexit["Episode"] if item.get('EpisodeId') == data["Id"]]
+                if not len(Isexit) > 0:
+                    GroupIsexit["Episode"].append({
+                        "EpisodeId" : data["Id"],
+                        "Title" : data["Title"],
+                        "Order" : data["Order"],
+                    })
+                    # 生成語音檔
+                    voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["Id"]}.acb.bundle')
+                    if voiceRes.status_code == 200:
+                        open(os.path.join(temp_dir, f'{data["Id"]}.acb'), "wb").write(voiceRes.content)
+            except:
+                continue
 
             # 列表排序
             GroupIsexit["Episode"].sort(key = lambda x: x["EpisodeId"] )
@@ -244,24 +247,27 @@ if masterlistres.status_code == 200:
             # 檢查列表中屬於這個故事所有的Episode
             orderlist = [item["Id"] for item in EpisodeMasterlist if item.get('StoryMasterId') == data["StoryMasterId"]]
             # 生成故事文檔
-            res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["Id"]}.bin')
-            if res.status_code == 200:
-                msgdata = msgpack_lz4block.deserialize(res.content)
-                to_json = createFormat(data["Id"], 2, data["Order"], data["Title"], addKey(msgdata), orderlist)
-                json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
-                open(os.path.join(EPBase_dir, f'{data["Id"]}.json'), "w", encoding='utf8').write(json_data)
-            # 檢查列表中是否存在
-            Isexit = [item for item in GroupIsexit["Episode"] if item.get('EpisodeId') == data["Id"]]
-            if not len(Isexit) > 0:
-                GroupIsexit["Episode"].append({
-                    "EpisodeId" : data["Id"],
-                    "Title" : data["Title"],
-                    "Order" : data["Order"],
-                })
-                # 生成語音檔
-                voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["Id"]}.acb.bundle')
-                if voiceRes.status_code == 200:
-                    open(os.path.join(temp_dir, f'{data["Id"]}.acb'), "wb").write(voiceRes.content)
+            try:
+                res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["Id"]}.bin')
+                if res.status_code == 200:
+                    msgdata = msgpack_lz4block.deserialize(res.content)
+                    to_json = createFormat(data["Id"], 2, data["Order"], data["Title"], addKey(msgdata), orderlist)
+                    json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
+                    open(os.path.join(EPBase_dir, f'{data["Id"]}.json'), "w", encoding='utf8').write(json_data)
+                # 檢查列表中是否存在
+                Isexit = [item for item in GroupIsexit["Episode"] if item.get('EpisodeId') == data["Id"]]
+                if not len(Isexit) > 0:
+                    GroupIsexit["Episode"].append({
+                        "EpisodeId" : data["Id"],
+                        "Title" : data["Title"],
+                        "Order" : data["Order"],
+                    })
+                    # 生成語音檔
+                    voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["Id"]}.acb.bundle')
+                    if voiceRes.status_code == 200:
+                        open(os.path.join(temp_dir, f'{data["Id"]}.acb'), "wb").write(voiceRes.content)
+            except:
+                continue
             # 列表排序
             GroupIsexit["Episode"].sort(key = lambda x: x["EpisodeId"] )
 
@@ -306,26 +312,30 @@ if masterlistres.status_code == 200:
             for ep in EPData:
                 # 檢查列表中屬於這個故事所有的Episode
                 orderlist = [item["Id"] for item in EPData]
+                
                 # 生成故事文檔
-                res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{ep["EpisodeMasterId"]}.bin')
-                if res.status_code == 200:
-                    msgdata = msgpack_lz4block.deserialize(res.content)
-                    to_json = createFormat(ep["EpisodeMasterId"], 3, orderToNum[ep["EpisodeOrder"]], group["Title"], addKey(msgdata), orderlist)
-                    json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
-                    open(os.path.join(EPBase_dir, f'{ep["EpisodeMasterId"]}.json'), "w", encoding='utf8').write(json_data)
-                # 檢查列表中是否存在
-                Isexit = [item for item in group["Episode"] if item.get('EpisodeId') == ep["EpisodeMasterId"]]
-                if not len(Isexit) > 0:
-                    group["Episode"].append({
-                        "EpisodeId" : ep["EpisodeMasterId"],
-                        "Order": orderToNum[ep["EpisodeOrder"]]
-                    })
-                    # 卡片照片需要更新
-                    Side_Update = True
-                    # 生成語音檔
-                    voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{ep["EpisodeMasterId"]}.acb.bundle')
-                    if voiceRes.status_code == 200:
-                        open(os.path.join(temp_dir, f'{ep["EpisodeMasterId"]}.acb'), "wb").write(voiceRes.content)
+                try:
+                    res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{ep["EpisodeMasterId"]}.bin')
+                    if res.status_code == 200:
+                        msgdata = msgpack_lz4block.deserialize(res.content)
+                        to_json = createFormat(ep["EpisodeMasterId"], 3, orderToNum[ep["EpisodeOrder"]], group["Title"], addKey(msgdata), orderlist)
+                        json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
+                        open(os.path.join(EPBase_dir, f'{ep["EpisodeMasterId"]}.json'), "w", encoding='utf8').write(json_data)
+                    # 檢查列表中是否存在
+                    Isexit = [item for item in group["Episode"] if item.get('EpisodeId') == ep["EpisodeMasterId"]]
+                    if not len(Isexit) > 0:
+                        group["Episode"].append({
+                            "EpisodeId" : ep["EpisodeMasterId"],
+                            "Order": orderToNum[ep["EpisodeOrder"]]
+                        })
+                        # 卡片照片需要更新
+                        Side_Update = True
+                        # 生成語音檔
+                        voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{ep["EpisodeMasterId"]}.acb.bundle')
+                        if voiceRes.status_code == 200:
+                            open(os.path.join(temp_dir, f'{ep["EpisodeMasterId"]}.acb'), "wb").write(voiceRes.content)
+                except:
+                    continue
             # 列表排序
             group["Episode"].sort(key = lambda x: x["EpisodeId"])
     
@@ -343,30 +353,33 @@ masterlistres = requests.get(f'{masterlistUrl}/SpotConversationMaster.json')
 if masterlistres.status_code == 200:
     for data in masterlistres.json():
         # 生成故事文檔
-        res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["EpisodeMasterId"]}.bin')
-        if res.status_code == 200:
-            msgdata = msgpack_lz4block.deserialize(res.content)
-            to_json = createFormat(data["EpisodeMasterId"], 4, 1, "スポット会話", addKey(msgdata), [])
-            json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
-            open(os.path.join(EPBase_dir, f'{data["EpisodeMasterId"]}.json'), "w", encoding='utf8').write(json_data)
-        # 檢查列表中是否存在
-        Isexit = [item for item in GameStoryMasterlist["StoryMaster"]["Spot"] if item.get('EpisodeId') == data["EpisodeMasterId"]]
-        if not len(Isexit) > 0:
-            chararr = []
-            for num in range(1, 6):
-                if f'CharacterId{num}' in data:
-                    if not data[f'CharacterId{num}'] == None:
-                        chararr.append(data[f'CharacterId{num}'])
-            GameStoryMasterlist["StoryMaster"]["Spot"].append({
-                "EpisodeId" : data["EpisodeMasterId"],
-                "Title" : "スポット会話",
-                "Order" : 1,
-                "CharacterIds" : chararr
-            })
-            # 生成語音檔
-            voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["EpisodeMasterId"]}.acb.bundle')
-            if voiceRes.status_code == 200:
-                open(os.path.join(temp_dir, f'{data["EpisodeMasterId"]}.acb'), "wb").write(voiceRes.content)
+        try:
+            res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["EpisodeMasterId"]}.bin')
+            if res.status_code == 200:
+                msgdata = msgpack_lz4block.deserialize(res.content)
+                to_json = createFormat(data["EpisodeMasterId"], 4, 1, "スポット会話", addKey(msgdata), [])
+                json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
+                open(os.path.join(EPBase_dir, f'{data["EpisodeMasterId"]}.json'), "w", encoding='utf8').write(json_data)
+            # 檢查列表中是否存在
+            Isexit = [item for item in GameStoryMasterlist["StoryMaster"]["Spot"] if item.get('EpisodeId') == data["EpisodeMasterId"]]
+            if not len(Isexit) > 0:
+                chararr = []
+                for num in range(1, 6):
+                    if f'CharacterId{num}' in data:
+                        if not data[f'CharacterId{num}'] == None:
+                            chararr.append(data[f'CharacterId{num}'])
+                GameStoryMasterlist["StoryMaster"]["Spot"].append({
+                    "EpisodeId" : data["EpisodeMasterId"],
+                    "Title" : "スポット会話",
+                    "Order" : 1,
+                    "CharacterIds" : chararr
+                })
+                # 生成語音檔
+                voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["EpisodeMasterId"]}.acb.bundle')
+                if voiceRes.status_code == 200:
+                    open(os.path.join(temp_dir, f'{data["EpisodeMasterId"]}.acb'), "wb").write(voiceRes.content)
+        except:
+            continue
 
     # 列表排序
     GameStoryMasterlist["StoryMaster"]["Spot"].sort(key = lambda x: x["EpisodeId"] )
@@ -434,25 +447,28 @@ if masterlistres.status_code == 200:
     SplashEpisode = [item for item in masterlistres.json() if item.get('SplashType') == "Episode"]
     for data in SplashEpisode:
         # 生成故事文檔
-        res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["SplashValue"]}.bin')
-        if res.status_code == 200:
-            msgdata = msgpack_lz4block.deserialize(res.content)
-            to_json = createFormat(int(data["SplashValue"]), 4, 1, "", addKey(msgdata), [])
-            json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
-            open(os.path.join(EPBase_dir, f'{data["SplashValue"]}.json'), "w", encoding='utf8').write(json_data)
+        try:
+            res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["SplashValue"]}.bin')
+            if res.status_code == 200:
+                msgdata = msgpack_lz4block.deserialize(res.content)
+                to_json = createFormat(int(data["SplashValue"]), 4, 1, "", addKey(msgdata), [])
+                json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
+                open(os.path.join(EPBase_dir, f'{data["SplashValue"]}.json'), "w", encoding='utf8').write(json_data)
 
-        # 檢查列表中是否存在
-        Isexit = [item for item in GameStoryMasterlist["StoryMaster"]["Special"] if item.get('EpisodeId') == data["SplashValue"]]
-        if not len(Isexit) > 0:
-            GameStoryMasterlist["StoryMaster"]["Special"].append({
-                "EpisodeId" : data["SplashValue"],
-                "Title" : "",
-                "Order" : 1,
-            })
-            # 生成語音檔
-            voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["SplashValue"]}.acb.bundle')
-            if voiceRes.status_code == 200:
-                open(os.path.join(temp_dir, f'{data["SplashValue"]}.acb'), "wb").write(voiceRes.content)
+            # 檢查列表中是否存在
+            Isexit = [item for item in GameStoryMasterlist["StoryMaster"]["Special"] if item.get('EpisodeId') == data["SplashValue"]]
+            if not len(Isexit) > 0:
+                GameStoryMasterlist["StoryMaster"]["Special"].append({
+                    "EpisodeId" : data["SplashValue"],
+                    "Title" : "",
+                    "Order" : 1,
+                })
+                # 生成語音檔
+                voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["SplashValue"]}.acb.bundle')
+                if voiceRes.status_code == 200:
+                    open(os.path.join(temp_dir, f'{data["SplashValue"]}.acb'), "wb").write(voiceRes.content)
+        except:
+            continue
 
     # 列表排序
     GameStoryMasterlist["StoryMaster"]["Special"].sort(key = lambda x: x["EpisodeId"] )
