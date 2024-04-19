@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-04-19 05:18:50",
+    "LatestDate": "2024-04-20 02:56:21",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -352,6 +352,113 @@
                     {
                         "EpisodeId": 1020120,
                         "Title": "楽園に差す光（後編）",
+                        "Order": 20
+                    }
+                ]
+            },
+            {
+                "Id": 10202,
+                "CompanyId": 2,
+                "ChapterOrder": 2,
+                "Episode": [
+                    {
+                        "EpisodeId": 1020201,
+                        "Title": "Edenの現在",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 1020202,
+                        "Title": "移動式劇団",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 1020203,
+                        "Title": "情けない自分",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 1020204,
+                        "Title": "接触",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 1020205,
+                        "Title": "主と二人で（前編）",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 1020206,
+                        "Title": "主と二人で（後編）",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 1020207,
+                        "Title": "しぐれ視点",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 1020208,
+                        "Title": "悪魔の友人",
+                        "Order": 8
+                    },
+                    {
+                        "EpisodeId": 1020209,
+                        "Title": "初魅の戦略",
+                        "Order": 9
+                    },
+                    {
+                        "EpisodeId": 1020210,
+                        "Title": "新作発表",
+                        "Order": 10
+                    },
+                    {
+                        "EpisodeId": 1020211,
+                        "Title": "アスモデウス",
+                        "Order": 11
+                    },
+                    {
+                        "EpisodeId": 1020212,
+                        "Title": "筆島家の事情",
+                        "Order": 12
+                    },
+                    {
+                        "EpisodeId": 1020213,
+                        "Title": "信楽大黒",
+                        "Order": 13
+                    },
+                    {
+                        "EpisodeId": 1020214,
+                        "Title": "センスの応用",
+                        "Order": 14
+                    },
+                    {
+                        "EpisodeId": 1020215,
+                        "Title": "主の厳命",
+                        "Order": 15
+                    },
+                    {
+                        "EpisodeId": 1020216,
+                        "Title": "焦燥感",
+                        "Order": 16
+                    },
+                    {
+                        "EpisodeId": 1020217,
+                        "Title": "自信と自覚",
+                        "Order": 17
+                    },
+                    {
+                        "EpisodeId": 1020218,
+                        "Title": "前へ",
+                        "Order": 18
+                    },
+                    {
+                        "EpisodeId": 1020219,
+                        "Title": "確かな手応え",
+                        "Order": 19
+                    },
+                    {
+                        "EpisodeId": 1020220,
+                        "Title": "大きな一歩",
                         "Order": 20
                     }
                 ]
@@ -2007,6 +2114,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20026,
+                "Title": "アツアツまごころ料理道！",
+                "Date": "2024-04-20",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002601,
+                        "Title": "料理好きとチャーハニスト",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002602,
+                        "Title": "中華ブーム",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002603,
+                        "Title": "あの味に近づきたくて",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002604,
+                        "Title": "雪の料理指南",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002605,
+                        "Title": "お味は……",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002606,
+                        "Title": "対決！",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002607,
+                        "Title": "お友達とライバル",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002608,
+                        "Title": "真心の勝利",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -2812,6 +2966,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140930,
+                        "Title": "銀弾は正鵠の射手",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140931,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140932,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -2914,6 +3082,20 @@
                             },
                             {
                                 "EpisodeId": 140682,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140920,
+                        "Title": "平和で幸せな悪魔憑き",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140921,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140922,
                                 "Order": 2
                             }
                         ]
@@ -3507,6 +3689,20 @@
                         ]
                     },
                     {
+                        "Id": 130470,
+                        "Title": "伝統料理で勝負だ！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130471,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130472,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140210,
                         "Title": "夜市の王",
                         "Episode": [
@@ -3771,6 +3967,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140710,
+                        "Title": "決闘者は仙人の如く",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140711,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140712,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -4020,6 +4230,20 @@
                             },
                             {
                                 "EpisodeId": 140242,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140700,
+                        "Title": "武の頂を目指して",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140701,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140702,
                                 "Order": 2
                             }
                         ]
