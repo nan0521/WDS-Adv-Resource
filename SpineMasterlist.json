@@ -280,6 +280,11 @@
         "CompanyId": 2
     },
     {
+        "Id": 20205,
+        "CharacterId": 202,
+        "CompanyId": 2
+    },
+    {
         "Id": 20216,
         "CharacterId": 202,
         "CompanyId": 2
