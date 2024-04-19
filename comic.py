@@ -21,12 +21,16 @@ if comic_master.status_code == 200:
     for comiclist in comic_data:
         id = (comiclist['Id'] - 1) * 10
         for comic in comiclist['Episodes']:
-            epid = id + comic['Order']
-            filename = comic["Body"].split("\"")[5]
-            assetsReq = requests.get(f'{WDS_Env["assetUrl"]}/static-assets/Resources/Textures/Comic/{filename}.png')
-            if assetsReq.status_code == 200:
-                open(os.path.join(comicFolder, f'{filename}.png'), "wb").write(assetsReq.content)
-            out_json.append({"id": epid, "title": comic['Title'], "filename": filename})
+            try:
+                epid = id + comic['Order']
+                filename = comic["Body"].split("\"")[5]
+                assetsReq = requests.get(f'{WDS_Env["assetUrl"]}/static-assets/Resources/Textures/Comic/{filename}.png')
+                if assetsReq.status_code == 200:
+                    open(os.path.join(comicFolder, f'{filename}.png'), "wb").write(assetsReq.content)
+                out_json.append({"id": epid, "title": comic['Title'], "filename": filename})
+            except:
+                print(epid)
+  
 
     with open('./Comic.json', 'w', encoding='utf-8') as f:
         json.dump(out_json, f, ensure_ascii=False, indent=4)
