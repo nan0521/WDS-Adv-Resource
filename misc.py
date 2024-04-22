@@ -46,61 +46,68 @@ if catalog_master.status_code == 200:
             spineId = filename.split('.')[0]
             IsExitImg = False
             IsExitMeta = False
-
-            fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurecharacterstand_assets_adventurecharacterstands/{filename}'                
-            assetsReq = requests.get(fullurl)
-            if assetsReq.status_code == 200:
-                assetsbundle = UnityPy.load(assetsReq.content)
-                for obj in assetsbundle.objects:
-                    if obj.type.name == "Texture2D":
-                        data = obj.read()
-                        data.image.save(os.path.join(spineFolder, f'{spineId}.png'))
-                        IsExitImg = True
-
-                    if obj.type.name == "TextAsset":
-                        data = obj.read()
-                        ext = data.name.split('.')[-1]
-                        open(os.path.join(spineFolder, f'{spineId}.{ext}'), "wb").write(bytes(data.script))
-                        IsExitMeta = True
-
-            if IsExitImg and IsExitMeta:
-                spinemaster.append({
-                    "Id" : int(spineId),
-                    "CharacterId" : int(spineId[0 : 3]),
-                    "CompanyId" : int(spineId[0]),
-                })
-
-        # card Image
-        if asset.startswith(f'{card_urlid}#'):
-            filename = asset.split('/')[-1]
-            cardId = filename.split('.')[0]
-
-            fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/charactercardtextures_assets_charactercardtextures/{filename}'
-            assetsReq = requests.get(fullurl)
-            if assetsReq.status_code == 200:
-                assetsbundle = UnityPy.load(assetsReq.content)
-                for path, obj in assetsbundle.container.items():
-                    if obj.type.name == "Sprite" and path.endswith('.jpg'):
-                        data = obj.read()
-                        if data.name == cardId:
-                            data.image.save(os.path.join(cardsFolder, f'{data.name}.png'))
-        
-        # backgorund
-        if asset.startswith(f'{bg_urlid}#'):
-            filename = asset.split('/')[-1]
-            bgId = filename.split('.')[0]
-
-            if not bgId in bgmaster:
-                fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurebackground_assets_adventurebackgrounds/{filename}'
+            try:
+                fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurecharacterstand_assets_adventurecharacterstands/{filename}'                
                 assetsReq = requests.get(fullurl)
                 if assetsReq.status_code == 200:
                     assetsbundle = UnityPy.load(assetsReq.content)
                     for obj in assetsbundle.objects:
                         if obj.type.name == "Texture2D":
                             data = obj.read()
-                            if data.name == bgId:
-                                data.image.save(os.path.join(bgFolder, f'{data.name}.png'))
-                                bgmaster.append(data.name)
+                            data.image.save(os.path.join(spineFolder, f'{spineId}.png'))
+                            IsExitImg = True
+
+                        if obj.type.name == "TextAsset":
+                            data = obj.read()
+                            ext = data.name.split('.')[-1]
+                            open(os.path.join(spineFolder, f'{spineId}.{ext}'), "wb").write(bytes(data.script))
+                            IsExitMeta = True
+
+                if IsExitImg and IsExitMeta:
+                    spinemaster.append({
+                        "Id" : int(spineId),
+                        "CharacterId" : int(spineId[0 : 3]),
+                        "CompanyId" : int(spineId[0]),
+                    })
+            except:
+                print(spineId)
+
+        # card Image
+        if asset.startswith(f'{card_urlid}#'):
+            filename = asset.split('/')[-1]
+            cardId = filename.split('.')[0]
+            try:
+                fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/charactercardtextures_assets_charactercardtextures/{filename}'
+                assetsReq = requests.get(fullurl)
+                if assetsReq.status_code == 200:
+                    assetsbundle = UnityPy.load(assetsReq.content)
+                    for path, obj in assetsbundle.container.items():
+                        if obj.type.name == "Sprite" and path.endswith('.jpg'):
+                            data = obj.read()
+                            if data.name == cardId:
+                                data.image.save(os.path.join(cardsFolder, f'{data.name}.png'))
+            except:
+                print(cardId)
+        
+        # backgorund
+        if asset.startswith(f'{bg_urlid}#'):
+            filename = asset.split('/')[-1]
+            bgId = filename.split('.')[0]
+            try:
+                if not bgId in bgmaster:
+                    fullurl = f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/adventurebackground_assets_adventurebackgrounds/{filename}'
+                    assetsReq = requests.get(fullurl)
+                    if assetsReq.status_code == 200:
+                        assetsbundle = UnityPy.load(assetsReq.content)
+                        for obj in assetsbundle.objects:
+                            if obj.type.name == "Texture2D":
+                                data = obj.read()
+                                if data.name == bgId:
+                                    data.image.save(os.path.join(bgFolder, f'{data.name}.png'))
+                                    bgmaster.append(data.name)
+            except:
+                print(bgId)
+
 
 # save spine list
 json_data = json.dumps(spinemaster, indent=4, ensure_ascii=False)
