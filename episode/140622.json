@@ -351,6 +351,7 @@
                 {
                     "slotNumber": 1,
                     "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 1,
                     "SpineId": 40101,
                     "CharacterAppearanceType": 0,
                     "CharacterPosition": 2,
@@ -1809,7 +1810,7 @@
             "GroupOrder": 65,
             "SpeakerName": "いろは",
             "FontSize": 2,
-            "Phrase": "普通じゃないっていうより、/nあまり普段やらないポーズの方が良さそうですね。だったら――",
+            "Phrase": "普通じゃないっていうより、/n普段やらないポーズの方が良さそうですね。だったら――",
             "VoiceFileName": "1406220620",
             "CharacterMotions": [
                 {
