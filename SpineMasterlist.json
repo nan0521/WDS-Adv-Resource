@@ -660,16 +660,6 @@
         "CompanyId": 4
     },
     {
-        "Id": 40301,
-        "CharacterId": 403,
-        "CompanyId": 4
-    },
-    {
-        "Id": 40302,
-        "CharacterId": 403,
-        "CompanyId": 4
-    },
-    {
         "Id": 40303,
         "CharacterId": 403,
         "CompanyId": 4
@@ -700,17 +690,7 @@
         "CompanyId": 4
     },
     {
-        "Id": 40401,
-        "CharacterId": 404,
-        "CompanyId": 4
-    },
-    {
         "Id": 40402,
-        "CharacterId": 404,
-        "CompanyId": 4
-    },
-    {
-        "Id": 40403,
         "CharacterId": 404,
         "CompanyId": 4
     },
