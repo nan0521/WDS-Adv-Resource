@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-04-26 05:15:39",
+    "LatestDate": "2024-04-26 17:23:18",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -2161,6 +2161,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20028,
+                "Title": "星雲の窓辺",
+                "Date": "2024-04-30",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002801,
+                        "Title": "心躍るご招待",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002802,
+                        "Title": "千寿の家",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002803,
+                        "Title": "たまにはリラックス",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002804,
+                        "Title": "お泊まり会のお楽しみ",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002805,
+                        "Title": "夢みたいな朝",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002806,
+                        "Title": "誰かと一緒に",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002807,
+                        "Title": "迷子と内緒",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002808,
+                        "Title": "あの、銀河のように",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -3533,6 +3580,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140740,
+                        "Title": "舞踏会は波乱と恋の予感？！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140741,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140742,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -3635,6 +3696,20 @@
                             },
                             {
                                 "EpisodeId": 140512,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140750,
+                        "Title": "冷酷な辺境伯に求婚されてます",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140751,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140752,
                                 "Order": 2
                             }
                         ]
@@ -3803,6 +3878,20 @@
                             },
                             {
                                 "EpisodeId": 130152,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130490,
+                        "Title": "リラックス・ナイト・タイム",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130491,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130492,
                                 "Order": 2
                             }
                         ]
@@ -10669,6 +10758,15 @@
                 "PronounceName": "かつてはあひるのこ",
                 "CharacterIds": [
                     204
+                ]
+            },
+            {
+                "Id": 230450,
+                "Name": "白蛇伝",
+                "PronounceName": "はくじゃでん",
+                "CharacterIds": [
+                    303,
+                    305
                 ]
             }
         ],
