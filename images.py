@@ -7,6 +7,8 @@ WDS_Env_Url = os.environ.get("WDS_ENV_URL")
 WDS_Env_Req = requests.post(WDS_Env_Url)
 WDS_Env = (WDS_Env_Req.json())['result']
 
+masterlistUrl = os.environ.get("WDS_MASTERLIST_URL")
+
 eventImage_dir = './image/eventLogo'
 sideImage_dir = './image/cardIcon'
 posterImage_dir = './image/posterIcon'
