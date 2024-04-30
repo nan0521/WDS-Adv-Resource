@@ -31,8 +31,8 @@ if StoryEvent.status_code == 200:
                 if obj.type.name == "Texture2D":
                     data = obj.read()
                     data.image.save(os.path.join(eventImage_dir, f'logo_{story["Id"]}.png'))
-            except:
-                print(story["Id"])
+        except:
+            print(story["Id"])
 
 # 更新卡片照片
 try:
