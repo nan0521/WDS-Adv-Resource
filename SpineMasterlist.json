@@ -435,6 +435,11 @@
         "CompanyId": 3
     },
     {
+        "Id": 30205,
+        "CharacterId": 302,
+        "CompanyId": 3
+    },
+    {
         "Id": 30206,
         "CharacterId": 302,
         "CompanyId": 3
@@ -466,6 +471,11 @@
     },
     {
         "Id": 30303,
+        "CharacterId": 303,
+        "CompanyId": 3
+    },
+    {
+        "Id": 30305,
         "CharacterId": 303,
         "CompanyId": 3
     },
@@ -520,6 +530,11 @@
         "CompanyId": 3
     },
     {
+        "Id": 30405,
+        "CharacterId": 304,
+        "CompanyId": 3
+    },
+    {
         "Id": 30412,
         "CharacterId": 304,
         "CompanyId": 3
@@ -551,6 +566,11 @@
     },
     {
         "Id": 30503,
+        "CharacterId": 305,
+        "CompanyId": 3
+    },
+    {
+        "Id": 30505,
         "CharacterId": 305,
         "CompanyId": 3
     },
@@ -862,6 +882,11 @@
     {
         "Id": 51101,
         "CharacterId": 511,
+        "CompanyId": 5
+    },
+    {
+        "Id": 51201,
+        "CharacterId": 512,
         "CompanyId": 5
     }
 ]
