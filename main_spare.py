@@ -229,7 +229,7 @@ if StoryEvent.status_code == 200:
                 'Date' : story["StartDate"].split(' ')[0],
                 "Episode" : []
             })
-            # 更新卡片照片
+            # 更新活動照片
             assetsReq = requests.get(f'{WDS_Env["assetUrl"]}/2d-assets/Android/{WDS_Env["assetVersion"]}/eventslogo_assets_events/logo_{story["Id"]}.bundle')
             assetsbundle = UnityPy.load(assetsReq.content)
             for obj in assetsbundle.objects:
