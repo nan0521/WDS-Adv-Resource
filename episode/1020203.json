@@ -1247,7 +1247,7 @@
             "GroupOrder": 47,
             "SpeakerName": "大黒",
             "FontSize": 2,
-            "Phrase": "わ、私にはもったいなきお言葉……！　",
+            "Phrase": "わ、私にはもったいなきお言葉……！　/nありがとうございます……！　",
             "VoiceFileName": "10202030420",
             "CharacterMotions": [
                 {
@@ -1272,7 +1272,7 @@
             "GroupOrder": 48,
             "SpeakerName": "大黒",
             "FontSize": 2,
-            "Phrase": "すぐに身体を治して、主のもとに馳せ参じます！　/nですので、どうかこれ以上ご心配なさらず……！　",
+            "Phrase": "すぐに身体を治して、主のもとに馳せ参じます！　",
             "VoiceFileName": "10202030430",
             "CharacterMotions": [
                 {
