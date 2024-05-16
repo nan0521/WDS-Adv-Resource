@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-05-16 05:15:35",
+    "LatestDate": "2024-05-16 17:23:51",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -2255,6 +2255,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20030,
+                "Title": "Fashi∞nable！",
+                "Date": "2024-05-20",
+                "Episode": [
+                    {
+                        "EpisodeId": 2003001,
+                        "Title": "着回しコスパ最強系ギャル",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2003002,
+                        "Title": "スタイリッシュな冒険",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2003003,
+                        "Title": "レンズを通した私",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2003004,
+                        "Title": "熱",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2003005,
+                        "Title": "だいすきなこと",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2003006,
+                        "Title": "堂々としていれば",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2003007,
+                        "Title": "なりたい自分",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2003008,
+                        "Title": "ちいさな冒険",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -2448,6 +2495,20 @@
                             },
                             {
                                 "EpisodeId": 130382,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130510,
+                        "Title": "3分だけだからね！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130511,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130512,
                                 "Order": 2
                             }
                         ]
@@ -4028,6 +4089,20 @@
                         ]
                     },
                     {
+                        "Id": 140790,
+                        "Title": "私だけの美学",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140791,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140792,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140900,
                         "Title": "江楓にお覚悟を",
                         "Episode": [
@@ -4527,6 +4602,20 @@
                             },
                             {
                                 "EpisodeId": 140472,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140780,
+                        "Title": "LIVE YOUR STYLE",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140781,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140782,
                                 "Order": 2
                             }
                         ]
