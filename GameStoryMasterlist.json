@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-05-29 05:15:50",
+    "LatestDate": "2024-05-29 17:26:38",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -2302,6 +2302,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20029,
+                "Title": "bet or fold？",
+                "Date": "2024-05-31",
+                "Episode": [
+                    {
+                        "EpisodeId": 2002901,
+                        "Title": "寄せられた期待",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2002902,
+                        "Title": "緊張感",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2002903,
+                        "Title": "賭けるか、降りるか",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2002904,
+                        "Title": "不安げに揺れる月",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2002905,
+                        "Title": "選んだ答え",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2002906,
+                        "Title": "窮地のなかで",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2002907,
+                        "Title": "壊れた舞台",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2002908,
+                        "Title": "臆病者",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -3123,6 +3170,20 @@
                         ]
                     },
                     {
+                        "Id": 130500,
+                        "Title": "勝手なことは許さない",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130501,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130502,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140160,
                         "Title": "悪意に満ちた観察者",
                         "Episode": [
@@ -3401,6 +3462,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140770,
+                        "Title": "正しくあるべき人の道を説く",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140771,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140772,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -3503,6 +3578,20 @@
                             },
                             {
                                 "EpisodeId": 140612,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140760,
+                        "Title": "初めての恋は成就したか",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140761,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140762,
                                 "Order": 2
                             }
                         ]
@@ -10945,6 +11034,15 @@
                 "CharacterIds": [
                     303,
                     305
+                ]
+            },
+            {
+                "Id": 230460,
+                "Name": "王女サロメの恋",
+                "PronounceName": "おうじょさろめのこい",
+                "CharacterIds": [
+                    203,
+                    204
                 ]
             }
         ],
