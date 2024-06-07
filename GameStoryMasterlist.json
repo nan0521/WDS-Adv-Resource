@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-06-07 05:18:25",
+    "LatestDate": "2024-06-07 17:25:54",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -2349,6 +2349,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20034,
+                "Title": "反逆、すべては目指す舞台のために",
+                "Date": "2024-06-10",
+                "Episode": [
+                    {
+                        "EpisodeId": 2003401,
+                        "Title": "夢の舞台を",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2003402,
+                        "Title": "大好きな役",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2003403,
+                        "Title": "ハードル",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2003404,
+                        "Title": "大丈夫",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2003405,
+                        "Title": "進むしかない",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2003406,
+                        "Title": "意志",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2003407,
+                        "Title": "一緒",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2003408,
+                        "Title": "電姫のコードギアス",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -4591,6 +4638,20 @@
                         ]
                     },
                     {
+                        "Id": 140870,
+                        "Title": "白き死神は戦場を駆け",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140871,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140872,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140890,
                         "Title": "朱の菜花は春を告げ",
                         "Episode": [
@@ -4787,6 +4848,20 @@
                         ]
                     },
                     {
+                        "Id": 130550,
+                        "Title": "踏みにじられた者の怒り",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130551,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130552,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
                         "Id": 140170,
                         "Title": "追想の帰路",
                         "Episode": [
@@ -4943,6 +5018,20 @@
                             },
                             {
                                 "EpisodeId": 140522,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140860,
+                        "Title": "連なる薔薇の懐かしき香り",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140861,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140862,
                                 "Order": 2
                             }
                         ]
