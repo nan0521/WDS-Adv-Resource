@@ -1,11 +1,11 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: fetch 01
-# run at 5:00
+name: fetch assets
+# run at 17:00
 on:
-  # schedule:
-    # - cron: '0 20 * * *'
+  schedule:
+    - cron: '0 8 * * *'
   workflow_dispatch :
 
 jobs:
@@ -30,10 +30,16 @@ jobs:
       - name: Fetch data
         env:
           WDS_ENV_URL: ${{ secrets.WDS_ENV_URL }}
-          WDS_MASTERLIST_URL: ${{ secrets.WDS_MASTERLIST_URL }}
+          WDS_MASTERLIST_URL: ${{ secrets.WDS_MASTERLIST_URL_SPARE }}
           SCRIPT_VERSION: ${{ secrets.SCRIPT_VERSION }}
         run: |
           python main.py
+      - name: Fetch Comic
+        env:
+          WDS_ENV_URL: ${{ secrets.WDS_ENV_URL }}
+          WDS_MASTERLIST_URL: ${{ secrets.WDS_MASTERLIST_URL_SPARE }}
+        run: |
+          python comic.py
       - name: Install ffmpeg
         run: |
           sudo apt update && sudo apt upgrade
