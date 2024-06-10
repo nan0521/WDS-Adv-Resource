@@ -1,10 +1,10 @@
 {
     "EpisodeId": 3000101,
-    "StoryType": 4,
+    "StoryType": 5,
     "Order": 1,
     "Prev": null,
     "Next": null,
-    "Title": "？？？",
+    "Title": "今日はあの人の誕生日",
     "EpisodeDetail": [
         {
             "Id": 3000101001,
