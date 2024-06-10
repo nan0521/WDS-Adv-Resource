@@ -471,7 +471,7 @@ if masterlistres.status_code == 200:
                 res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["Id"]}.bin')
                 if res.status_code == 200:
                     msgdata = msgpack_lz4block.deserialize(res.content)
-                    to_json = createFormat(data["Id"], 5, 1, data["Title"], addKey(msgdata), orderlist)
+                    to_json = createFormat(data["Id"], 6, 1, data["Title"], addKey(msgdata), orderlist)
                     json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
                     open(os.path.join(EPBase_dir, f'{data["Id"]}.json'), "w", encoding='utf8').write(json_data)
 
