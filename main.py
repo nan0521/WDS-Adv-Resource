@@ -446,37 +446,53 @@ if Poster_Update == True:
 
 
 # ------------------------ Special ------------------------
-masterlistres = requests.get(f'{masterlistUrl}/SplashMaster.json')
+# 生成Special資訊
+masterlistres = requests.get(f'{masterlistUrl}/SpecialStoryMaster.json')
 if masterlistres.status_code == 200:
-    SplashEpisode = [item for item in masterlistres.json() if item.get('SplashType') == "Episode"]
-    for data in SplashEpisode:
-        # 生成故事文檔
-        try:
-            res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["SplashValue"]}.bin')
-            if res.status_code == 200:
-                msgdata = msgpack_lz4block.deserialize(res.content)
-                to_json = createFormat(int(data["SplashValue"]), 4, 1, "", addKey(msgdata), [])
-                json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
-                open(os.path.join(EPBase_dir, f'{data["SplashValue"]}.json'), "w", encoding='utf8').write(json_data)
+    for special in masterlistres.json():
+        SpecialIsexit = [item for item in GameStoryMasterlist["StoryMaster"]["Special"] if item.get('Id') == special["Id"]]
+        if not len(SpecialIsexit) > 0:
+            GameStoryMasterlist["StoryMaster"]["Special"].append({
+                "Id" : special["Id"],
+                "Title" : special["Title"],
+                "Episode" : []
+            })
 
-            # 檢查列表中是否存在
-            Isexit = [item for item in GameStoryMasterlist["StoryMaster"]["Special"] if item.get('EpisodeId') == data["SplashValue"]]
-            if not len(Isexit) > 0:
-                GameStoryMasterlist["StoryMaster"]["Special"].append({
-                    "EpisodeId" : data["SplashValue"],
-                    "Title" : "",
-                    "Order" : 1,
-                })
-                # 生成語音檔
-                voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["SplashValue"]}.acb.bundle')
-                if voiceRes.status_code == 200:
-                    open(os.path.join(temp_dir, f'{data["SplashValue"]}.acb'), "wb").write(voiceRes.content)
-        except:
-            print(data["SplashValue"])
-            continue
+masterlistres = requests.get(f'{masterlistUrl}/SpecialEpisodeMaster.json')
+if masterlistres.status_code == 200:
+    SpecialMasterlist = masterlistres.json()
+    for data in masterlistres.json():
+        GroupIsexit = [item for item in GameStoryMasterlist["StoryMaster"]["Special"] if item.get('Id') == data["StoryMasterId"]][0]
+        if GroupIsexit:
+            # 檢查列表中屬於這個故事所有的Episode
+            orderlist = [item["Id"] for item in SpecialMasterlist if item.get('StoryMasterId') == data["StoryMasterId"]]
+            # 生成故事文檔
+            try:
+                res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["Id"]}.bin')
+                if res.status_code == 200:
+                    msgdata = msgpack_lz4block.deserialize(res.content)
+                    to_json = createFormat(data["Id"], 5, 1, data["Title"], addKey(msgdata), orderlist)
+                    json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
+                    open(os.path.join(EPBase_dir, f'{data["Id"]}.json'), "w", encoding='utf8').write(json_data)
 
+                Isexit = [item for item in GroupIsexit["Episode"] if item.get('EpisodeId') == data["Id"]]
+                if not len(Isexit) > 0:
+                    GroupIsexit["Episode"].append({
+                        "EpisodeId" : data["Id"],
+                        "Title" : data["Title"],
+                        "Order" : 1,
+                    })
+                    # 生成語音檔
+                    voiceRes = requests.get(f'{WDS_Env["assetUrl"]}/cri-assets/Android/{WDS_Env["assetVersion"]}/cridata_remote_assets_criaddressables/{data["Id"]}.acb.bundle')
+                    if voiceRes.status_code == 200:
+                        open(os.path.join(temp_dir, f'{data["Id"]}.acb'), "wb").write(voiceRes.content)
+            except:
+                print(data["Id"])
+                continue
+
+            GroupIsexit["Episode"].sort(key = lambda x: x["EpisodeId"] )
     # 列表排序
-    GameStoryMasterlist["StoryMaster"]["Special"].sort(key = lambda x: x["EpisodeId"] )
+    GameStoryMasterlist["StoryMaster"]["Special"].sort(key = lambda x: x["Id"] )
 
 
 # 生成 GameStoryMasterlist.json
