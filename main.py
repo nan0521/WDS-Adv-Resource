@@ -360,7 +360,7 @@ if masterlistres.status_code == 200:
             res = requests.get(f'{WDS_Env["masterDataUrl"]}/scenes/{data["EpisodeMasterId"]}.bin')
             if res.status_code == 200:
                 msgdata = msgpack_lz4block.deserialize(res.content)
-                to_json = createFormat(data["EpisodeMasterId"], 4, 1, "スポット会話", addKey(msgdata), [])
+                to_json = createFormat(data["EpisodeMasterId"], 4, 1, data["Title"], addKey(msgdata), [])
                 json_data = json.dumps(to_json, indent=4, ensure_ascii=False)
                 open(os.path.join(EPBase_dir, f'{data["EpisodeMasterId"]}.json'), "w", encoding='utf8').write(json_data)
             # 檢查列表中是否存在
@@ -373,8 +373,8 @@ if masterlistres.status_code == 200:
                             chararr.append(data[f'CharacterId{num}'])
                 GameStoryMasterlist["StoryMaster"]["Spot"].append({
                     "EpisodeId" : data["EpisodeMasterId"],
-                    "Title" : "スポット会話",
-                    "Order" : 1,
+                    "Title" : data["Title"],
+                    "Spot" : data["Spot"],
                     "CharacterIds" : chararr
                 })
                 # 生成語音檔
