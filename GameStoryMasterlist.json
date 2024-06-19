@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-06-19 05:18:15",
+    "LatestDate": "2024-06-19 17:21:00",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -2396,6 +2396,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20033,
+                "Title": "沫雪がとけたら",
+                "Date": "2024-06-20",
+                "Episode": [
+                    {
+                        "EpisodeId": 2003301,
+                        "Title": "緋花里のこと",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2003302,
+                        "Title": "雪のこと",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2003303,
+                        "Title": "べつに、元気だよ",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2003304,
+                        "Title": "ペトリコール",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2003305,
+                        "Title": "ゆきのひ",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2003306,
+                        "Title": "こんなつもりじゃなくても",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2003307,
+                        "Title": "雨が止んだら",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2003308,
+                        "Title": "明るいひかり",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -4118,6 +4165,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140850,
+                        "Title": "雨上がりの君を待って",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140851,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140852,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -4367,6 +4428,20 @@
                             },
                             {
                                 "EpisodeId": 140712,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140840,
+                        "Title": "雨上がりには特大スクープ！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140841,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140842,
                                 "Order": 2
                             }
                         ]
@@ -4724,6 +4799,20 @@
                             },
                             {
                                 "EpisodeId": 130292,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130540,
+                        "Title": "友達なのに／だから",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130541,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130542,
                                 "Order": 2
                             }
                         ]
