@@ -27,7 +27,7 @@ if comic_master.status_code == 200:
                 assetsReq = requests.get(f'{WDS_Env["assetUrl"]}/static-assets/Resources/Textures/Comic/{filename}.png')
                 if assetsReq.status_code == 200:
                     open(os.path.join(comicFolder, f'{filename}.png'), "wb").write(assetsReq.content)
-                out_json.append({"id": epid, "title": comic['Title'], "filename": filename})
+                    out_json.append({"id": epid, "title": comic['Title'], "filename": filename})
             except:
                 print(epid)
   
