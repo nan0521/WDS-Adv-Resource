@@ -1,8 +1,8 @@
 name: misc
 # run at 5:00
 on:
-  schedule:
-      - cron: '0 20 * * *'
+  # schedule:
+  #     - cron: '0 20 * * *'
   workflow_dispatch :
 
 jobs:
