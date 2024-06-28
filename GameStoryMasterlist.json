@@ -1,5 +1,5 @@
 {
-    "LatestDate": "2024-06-28 05:16:46",
+    "LatestDate": "2024-06-28 17:21:36",
     "ScriptVersion": "1.0.4",
     "StoryMaster": {
         "Main": [
@@ -2443,6 +2443,53 @@
                         "Order": 8
                     }
                 ]
+            },
+            {
+                "Id": 20032,
+                "Title": "イノセンスにおしえて",
+                "Date": "2024-06-30",
+                "Episode": [
+                    {
+                        "EpisodeId": 2003201,
+                        "Title": "年上のアドバイス",
+                        "Order": 1
+                    },
+                    {
+                        "EpisodeId": 2003202,
+                        "Title": "ぱんだのでばんだ",
+                        "Order": 2
+                    },
+                    {
+                        "EpisodeId": 2003203,
+                        "Title": "カリスマ",
+                        "Order": 3
+                    },
+                    {
+                        "EpisodeId": 2003204,
+                        "Title": "舞い込んだバズの予感",
+                        "Order": 4
+                    },
+                    {
+                        "EpisodeId": 2003205,
+                        "Title": "児童館",
+                        "Order": 5
+                    },
+                    {
+                        "EpisodeId": 2003206,
+                        "Title": "わんぱくな子どもたち",
+                        "Order": 6
+                    },
+                    {
+                        "EpisodeId": 2003207,
+                        "Title": "求められる人",
+                        "Order": 7
+                    },
+                    {
+                        "EpisodeId": 2003208,
+                        "Title": "野望のぱんだ",
+                        "Order": 8
+                    }
+                ]
             }
         ],
         "Side": [
@@ -2947,6 +2994,20 @@
                                 "Order": 2
                             }
                         ]
+                    },
+                    {
+                        "Id": 140830,
+                        "Title": "ペンギン・ア・ゴーゴー！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140831,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140832,
+                                "Order": 2
+                            }
+                        ]
                     }
                 ]
             },
@@ -3077,6 +3138,20 @@
                             },
                             {
                                 "EpisodeId": 140732,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 140820,
+                        "Title": "がおー！のレッスン",
+                        "Episode": [
+                            {
+                                "EpisodeId": 140821,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 140822,
                                 "Order": 2
                             }
                         ]
@@ -3868,6 +3943,20 @@
                             },
                             {
                                 "EpisodeId": 130372,
+                                "Order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 130530,
+                        "Title": "食べちゃうぞ～！",
+                        "Episode": [
+                            {
+                                "EpisodeId": 130531,
+                                "Order": 1
+                            },
+                            {
+                                "EpisodeId": 130532,
                                 "Order": 2
                             }
                         ]
@@ -11221,6 +11310,15 @@
                 "CharacterIds": [
                     203,
                     204
+                ]
+            },
+            {
+                "Id": 230490,
+                "Name": "コバルトブルーの波に抱かれて",
+                "PronounceName": "こばるとぶるーのなみにいだかれて",
+                "CharacterIds": [
+                    301,
+                    303
                 ]
             }
         ],
