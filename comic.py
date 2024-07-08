@@ -31,6 +31,6 @@ if comic_master.status_code == 200:
             except:
                 print(epid)
   
-
+    out_json.sort(key = lambda x: x["id"] )
     with open('./Comic.json', 'w', encoding='utf-8') as f:
         json.dump(out_json, f, ensure_ascii=False, indent=4)
