@@ -30,5 +30,4 @@ jobs:
         with:
           commit_user_name: WDS-BOT[bot]
           commit_user_email: WDS-BOT[bot]@users.noreply.github.com
-          commit_author: WDS-BOT[bot]
           commit_message: Automated Update
